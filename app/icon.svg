@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chipGradFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182028"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Shield Background -->
+  <rect x="2" y="2" width="96" height="96" rx="22" fill="#0e1217" stroke="#00ccff" stroke-width="2.5"/>
+  
+  <!-- Outer Regenerative Loop Arc 1 -->
+  <path d="M 50,12 A 38,38 0 0,1 86,58 L 82,56" fill="none" stroke="#00ccff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 86,58 A 38,38 0 0,1 50,88" fill="none" stroke="#00ff66" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="45,83 52,88 45,93" fill="#00ff66"/>
+
+  <!-- Outer Regenerative Loop Arc 2 -->
+  <path d="M 50,88 A 38,38 0 0,1 14,44 L 18,46" fill="none" stroke="#00ff66" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 14,44 A 38,38 0 0,1 48,12" fill="none" stroke="#00ccff" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="55,17 48,12 55,7" fill="#00ccff"/>
+
+  <!-- Central Silicon Microchip -->
+  <g transform="translate(50, 50)">
+    <line x1="-16" y1="-22" x2="-16" y2="-17" stroke="#00ccff" stroke-width="2.5"/>
+    <line x1="0" y1="-22" x2="0" y2="-17" stroke="#00ff66" stroke-width="2.5"/>
+    <line x1="16" y1="-22" x2="16" y2="-17" stroke="#00ccff" stroke-width="2.5"/>
+
+    <line x1="-16" y1="17" x2="-16" y2="22" stroke="#00ff66" stroke-width="2.5"/>
+    <line x1="0" y1="17" x2="0" y2="22" stroke="#00ccff" stroke-width="2.5"/>
+    <line x1="16" y1="17" x2="16" y2="22" stroke="#00ff66" stroke-width="2.5"/>
+
+    <line x1="-22" y1="-10" x2="-17" y2="-10" stroke="#00ccff" stroke-width="2.5"/>
+    <line x1="-22" y1="10" x2="-17" y2="10" stroke="#00ff66" stroke-width="2.5"/>
+
+    <line x1="17" y1="-10" x2="22" y2="-10" stroke="#00ccff" stroke-width="2.5"/>
+    <line x1="17" y1="10" x2="22" y2="10" stroke="#00ff66" stroke-width="2.5"/>
+
+    <rect x="-18" y="-18" width="36" height="36" rx="5" fill="url(#chipGradFav)" stroke="#3d4957" stroke-width="2"/>
+    <circle cx="-12" cy="-12" r="2.5" fill="#00ccff"/>
+
+    <!-- Central Monogram & Upgrade Chevron -->
+    <path d="M -10,10 L -4,-8 L 2,10 M -8,4 L 0,4" fill="none" stroke="#00ff66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 0,-8 L 0,4 Q 0,10 6,10 Q 12,10 12,4 L 12,-8" fill="none" stroke="#00ccff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -5,-11 L 0,-15 L 5,-11" fill="none" stroke="#00ff66" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
