@@ -1,0 +1,19 @@
+.logoWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.logoWrapper:hover {
+  filter: drop-shadow(0 0 8px rgba(0, 255, 102, 0.4));
+}
+
+.logoImg {
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
