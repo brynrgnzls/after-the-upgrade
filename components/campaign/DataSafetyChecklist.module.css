@@ -1,0 +1,258 @@
+.checklistContainer {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-accent-tech);
+  border-radius: var(--radius-sm);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-tech);
+  background-color: var(--color-accent-tech-soft);
+  border: 1px solid var(--color-accent-tech-border);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  align-self: flex-start;
+}
+
+.title {
+  font-size: 1.85rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+
+.progressBarContainer {
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  height: 10px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.progressBarFill {
+  height: 100%;
+  background-color: var(--color-accent-acid);
+  transition: width 0.25s ease-out;
+}
+
+.progressStats {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-accent-acid);
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* OS Switcher Tabs */
+.osTabsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0 1.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.osTabBtn {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-xs);
+  background-color: var(--color-surface-elevated);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.osTabBtn:hover {
+  background-color: var(--color-surface-hover);
+  color: var(--color-text-primary);
+}
+
+.osTabActive {
+  background-color: var(--color-accent-tech-soft);
+  color: var(--color-accent-tech);
+  border-color: var(--color-accent-tech-border);
+}
+
+/* Step Items */
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.stepCard {
+  background-color: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem;
+  transition: all 0.15s ease;
+}
+
+.stepCompleted {
+  border-color: var(--color-accent-acid-border);
+  background-color: rgba(0, 230, 118, 0.03);
+}
+
+.stepHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--color-accent-acid);
+  cursor: pointer;
+  margin-top: 0.4rem;
+  flex-shrink: 0;
+}
+
+.stepIconBox {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-xs);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent-tech);
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.stepIconBoxCompleted {
+  color: var(--color-accent-acid);
+  border-color: var(--color-accent-acid-border);
+  background-color: var(--color-accent-acid-soft);
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.stepTitleLine {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.stepNumber {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--color-accent-tech);
+}
+
+.stepTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.stepSummary {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+}
+
+.actionItemsList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 0.5rem;
+}
+
+.actionItem {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  padding-left: 1.25rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.actionItem::before {
+  content: "•";
+  position: absolute;
+  left: 0.2rem;
+  color: var(--color-accent-tech);
+  font-weight: bold;
+}
+
+.osTipBox {
+  margin-top: 0.75rem;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent-tech);
+  border-radius: var(--radius-xs);
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.osTipLabel {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent-tech);
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.footerControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 640px) {
+  .checklistContainer {
+    padding: 1.5rem 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
