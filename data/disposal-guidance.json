@@ -1,0 +1,159 @@
+{
+  "whySpecialHandling": {
+    "headline": "Why Electronics Require Specialized End-of-Life Handling",
+    "summary": "Unlike simple glass bottles, cardboard packaging, or organic municipal waste, electronics are composite industrial assemblies. A single modern laptop or smartphone houses hundreds of delicate, bonded materials—including precious transition metals, toxic heavy elements, flammable volatile electrolytes, and petroleum-based plastics infused with flame retardants.",
+    "keyReasons": [
+      {
+        "title": "Dense Concentration of Toxic Compounds",
+        "detail": "Circuit boards, older cathode-ray tube funnels, and soldering alloys contain lead, mercury, cadmium, and brominated flame retardants. Left unmanaged in ordinary landfills, acidic rainfall dissolves these elements, forming toxic leachate that seeps into subterranean water tables."
+      },
+      {
+        "title": "Severe Electrochemical Fire Hazards",
+        "detail": "Rechargeable lithium-ion batteries store dense chemical energy in micro-thin separators. When crushed inside municipal garbage truck compactors, internal short-circuits trigger instantaneous thermal runaway, igniting fierce chemical fires that water cannot easily extinguish."
+      },
+      {
+        "title": "Irreplaceable Mineral Depletion",
+        "detail": "Electronics concentrate gold, silver, copper, palladium, cobalt, and lithium at densities far richer than virgin mining ore. Routing these items to ordinary landfills buries scarce finite resources that required immense carbon emissions to extract and refine."
+      }
+    ]
+  },
+  "workingDevicesPathway": {
+    "title": "What to Do With Working Devices",
+    "philosophy": "A functional electronic device should never be scrapped or shredded. Retention and secondary ownership preserve 100% of the embodied energy and carbon invested in original silicon fabrication.",
+    "recommendedActions": [
+      {
+        "step": "1. Prioritize School & Community Donation",
+        "description": "Millions of learners lack reliable computers for homework and remote learning. Contact local public schools, public libraries, adult literacy centers, or non-profit refurbishers."
+      },
+      {
+        "step": "2. Family, Peer, or Co-Worker Handover",
+        "description": "A machine that feels slightly slow for intensive video editing or 3D gaming is often more than fast enough for a relative, roommate, or student needing basic word processing and web access."
+      },
+      {
+        "step": "3. Trade-In or Secondary Market Resale",
+        "description": "Legitimate manufacturer trade-in programs and peer-to-peer marketplaces channel functional hardware directly back into active consumer circulation."
+      },
+      {
+        "step": "4. Mandatory Prerequisite: Complete Data Sanitization",
+        "description": "Before releasing any working hardware, sign out of all cloud accounts, disable activation locks ('Find My' / Google FRP), and perform a complete cryptographic factory wipe."
+      }
+    ]
+  },
+  "brokenDevicesPathway": {
+    "title": "What to Do With Broken or Non-Functional Devices",
+    "philosophy": "When hardware suffers fatal motherboard failure or physical destruction beyond economical repair, the priority shifts to component harvesting and certified closed-loop materials reclamation.",
+    "recommendedActions": [
+      {
+        "step": "1. Harvest Usable Modular Components First",
+        "description": "If comfortable with simple screwdrivers, extract working memory RAM sticks, Solid State Drives (SSDs), internal cooling fans, and modular Wi-Fi cards before disposing of the chassis. These can repair other machines."
+      },
+      {
+        "step": "2. Sanitize or Mechanically Destroy Storage Drives",
+        "description": "If the computer will not turn on to perform a software wipe, physically remove the hard drive or SSD. You can keep it as a backup or take it to a certified shredder."
+      },
+      {
+        "step": "3. Deliver Strictly to Certified Electronic Recyclers",
+        "description": "Hand hardware directly to processors holding verified third-party accreditation (such as R2v3 or e-Stewards). Certified recyclers mechanically shred components in closed air-filtered enclosures and route metals to smelters without dumping."
+      }
+    ]
+  },
+  "accessoriesAndCables": {
+    "title": "Handling Chargers, Cables, Batteries & Accessories",
+    "summary": "Smaller accessories often get tossed into household trash because they seem harmless. However, accessories represent massive volumes of scrap copper, PVC plastics, and hazardous lithium chemistry.",
+    "guidelines": [
+      {
+        "item": "Chargers & Power Bricks",
+        "instruction": "Keep working power adapters with the device they power if donating. If the adapter is orphaned or loose, bundle it with other electronics. Power bricks contain copper transformers and capacitors that certified recyclers recover."
+      },
+      {
+        "item": "Cables & USB Cords",
+        "instruction": "Gather unwanted cables, bundle them with reusable twist ties, and drop them at specialized cable/electronics collection bins. Metal recyclers strip the plastic insulation to reclaim nearly 100% pure conductive copper wire."
+      },
+      {
+        "item": "Rechargeable Lithium Batteries",
+        "instruction": "Never place loose lithium batteries in bins with loose metal objects or cables. Tape both electrical contact terminals with non-conductive electrical tape and take them to a dedicated battery kiosk."
+      },
+      {
+        "item": "Keyboards, Mice & Peripherals",
+        "instruction": "Functional accessories can be donated to school computer clubs. Broken plastic peripherals should be delivered to e-waste collection events for plastic and copper separation."
+      }
+    ]
+  },
+  "swollenBatteryProtocol": {
+    "title": "Why Damaged or Swollen Batteries Require Extra Caution",
+    "warning": "A swollen battery is an active chemical hazard. Swelling occurs when internal electrolyte decomposition produces volatile gas buildup, indicating separator breakdown and imminent fire risk.",
+    "immediateProtocols": [
+      "Disconnect immediately from wall power: Never attempt to charge, test, or power on a device with a bulging, swollen, or unusually hot battery.",
+      "Do not compress or puncture: Never press down on a bulging phone screen, try to force a warped laptop casing closed, or pierce the battery pouch to 'release the gas'. Puncturing admits atmospheric oxygen and causes immediate violent flame ignition.",
+      "Store in a fire-safe buffer: Place the device inside a non-flammable container—such as an empty metal bucket or metal ammunition box filled with clean dry sand or cat litter—and keep it in a cool, well-ventilated space away from combustible furnishings.",
+      "Identify specialized hazardous waste drop-off: Standard unmonitored electronic drop boxes generally prohibit swollen cells. Contact your local municipal household hazardous waste facility or a certified repair technician who maintains specialized fire-rated battery storage drums.",
+      "Ground transport only: Never mail, ship, or check in air luggage a damaged or swollen lithium-ion battery. Postal regulations strictly prohibit air or parcel transit of compromised cells due to cargo fire risks."
+    ]
+  },
+  "whatToAvoid": [
+    {
+      "prohibition": "Never throw electronics into regular household curbside trash",
+      "reason": "Trash trucks use hydraulic compactor blades that crush items with immense force, puncturing batteries and starting fast-moving truck fires on public streets."
+    },
+    {
+      "prohibition": "Never place electronics, cords, or batteries into curbside blue recycling bins",
+      "reason": "Curbside single-stream recycling is designed strictly for cardboard, paper, aluminum cans, and rigid plastic jugs. Cables wrap around conveyor gears, shutting down facilities, and batteries spark catastrophic plant conflagrations."
+    },
+    {
+      "prohibition": "Never submerge damaged batteries or electronics in water",
+      "reason": "Water causes galvanic corrosion, accelerates short-circuits, and can produce flammable hydrogen gas when interacting with reactive lithium."
+    },
+    {
+      "prohibition": "Never burn cables or circuit boards to extract copper or gold",
+      "reason": "Backyard burning of PVC cable jackets and printed circuit boards releases lethal, carcinogenic brominated dioxins, hydrogen chloride gas, and heavy metal smoke."
+    },
+    {
+      "prohibition": "Never leave dead batteries loose in drawers with coins, keys, or paperclips",
+      "reason": "Loose metal objects touching battery terminals create direct short-circuits that can spark household fires."
+    }
+  ],
+  "transportPreparation": [
+    {
+      "step": "1. Insulate Battery Terminals",
+      "detail": "Place a piece of non-conductive clear packing tape or electrical tape over the exposed metal terminals of any loose batteries or battery packs to prevent accidental short-circuits during transit."
+    },
+    {
+      "step": "2. Cushion Cracked Screens and Glass",
+      "detail": "If a display panel, monitor, or smartphone screen is shattered, place a sheet of clear packing tape across the entire glass surface or wrap the screen in bubble wrap/cardboard to shield handlers from lacerations."
+    },
+    {
+      "step": "3. Keep Equipment Dry and Stable",
+      "detail": "Pack items upright in sturdy cardboard boxes or plastic tubs. Moisture accelerates battery corrosion, and loose shifting items can damage internal components."
+    },
+    {
+      "step": "4. Separate Intact Devices from Damaged Batteries",
+      "detail": "Do not mix hardware containing swollen or leaking batteries in the same box as working laptops or peripherals. Keep compromised cells in their own insulated fire-safe container."
+    }
+  ],
+  "questionsToAskProvider": [
+    {
+      "question": "Are you third-party certified under the R2v3 or e-Stewards standard?",
+      "whyItMatters": "R2 (Responsible Recycling) and e-Stewards are the gold-standard independent certifications. They require rigorous environmental compliance, data security, worker safety, and prohibition of illegal export to developing nations."
+    },
+    {
+      "question": "Do you guarantee a zero-landfill policy for all electronic materials?",
+      "whyItMatters": "Legitimate e-waste recyclers dismantle and separate materials for closed-loop smelting and refining. Uncertified operators frequently cherry-pick high-value items and dump the remaining plastics and glass in landfills."
+    },
+    {
+      "question": "Are any materials or disassembled scrap shipped to informal processing facilities overseas?",
+      "whyItMatters": "Ethical recyclers comply with the Basel Convention and do not dump toxic electronic scrap onto informal, unprotected labor yards in developing countries."
+    },
+    {
+      "question": "What verified protocol do you follow for data sanitization and destruction?",
+      "whyItMatters": "Reputable recyclers follow NIST SP 800-88 sanitization standards or physically shred drives, issuing serialized certificates of data destruction."
+    },
+    {
+      "question": "How do you handle damaged, defective, or swollen lithium-ion batteries?",
+      "whyItMatters": "Providers must have specialized fire-rated storage drums, UN-rated transport packaging, and certified battery downstream smelting partners to handle high-risk batteries safely."
+    },
+    {
+      "question": "Do you prioritize reuse and refurbishment over immediate shredding?",
+      "whyItMatters": "The greenest e-waste handler tests and refurbishes functioning machines to extend their lifespans before resorting to mechanical shredding."
+    }
+  ]
+}

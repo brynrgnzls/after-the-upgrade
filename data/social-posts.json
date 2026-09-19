@@ -1,0 +1,415 @@
+{
+  "hashtagGroups": [
+    {
+      "id": "core-campaign",
+      "groupName": "Core Campaign Tag Bundle",
+      "description": "The primary hashtags uniting all student, community, and organizational participants.",
+      "hashtags": [
+        "#AfterTheUpgrade",
+        "#RepairReuseReturn",
+        "#ThinkBeyondTheUpgrade",
+        "#ResponsibleTech",
+        "#EWasteAwareness"
+      ]
+    },
+    {
+      "id": "repair-longevity",
+      "groupName": "Right to Repair & Longevity",
+      "description": "Ideal for battery replacement guides, thermal maintenance tips, and teardown workshops.",
+      "hashtags": [
+        "#RightToRepair",
+        "#FixFirst",
+        "#BatteryCare",
+        "#TechLongevity",
+        "#AfterTheUpgrade"
+      ]
+    },
+    {
+      "id": "school-community",
+      "groupName": "School, Campus & Youth Action",
+      "description": "Targeted for student councils, STEM teachers, lab administrators, and campus donation drives.",
+      "hashtags": [
+        "#CampusEwasteDrive",
+        "#DigitalInclusion",
+        "#RefurbishNotReplace",
+        "#StudentAdvocacy",
+        "#AfterTheUpgrade"
+      ]
+    },
+    {
+      "id": "safe-disposal",
+      "groupName": "Safe Recovery & Battery Safety",
+      "description": "Focusing on zero-landfill principles, hazardous battery isolation, and certified recycling.",
+      "hashtags": [
+        "#NoBatteriesInTrash",
+        "#CertifiedRecycling",
+        "#R2v3",
+        "#UrbanMining",
+        "#EWasteAwareness"
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "id": "cap-short-1",
+      "category": "short-social",
+      "categoryLabel": "Short Social",
+      "platformSuggestion": "X / Threads / Microblogging",
+      "title": "A Gadget's Usefulness",
+      "hook": "A gadget's usefulness should not end when you upgrade.",
+      "content": "Before relegating your previous laptop or phone to a dusty drawer, ask three questions:\n1. Can a battery swap fix it?\n2. Can it be repurposed as a webcam or Linux workstation?\n3. Can a student use it?\n\nRepair it. Reuse it. Return it responsibly. #AfterTheUpgrade #ThinkBeyondTheUpgrade #ResponsibleTech",
+      "callToAction": "Evaluate an aging device at our campaign portal",
+      "hashtags": ["#AfterTheUpgrade", "#ThinkBeyondTheUpgrade", "#ResponsibleTech"]
+    },
+    {
+      "id": "cap-short-2",
+      "category": "short-social",
+      "categoryLabel": "Short Social",
+      "platformSuggestion": "X / Threads / Microblogging",
+      "title": "The Sluggish Battery Fallacy",
+      "hook": "Your phone isn't dying — its battery is just exhausted.",
+      "content": "Replacing a degraded battery costs less than 15% of buying a new phone and prevents hundreds of pounds of upstream manufacturing emissions.\n\nDon't let marketing convince you that normal battery wear means a machine is obsolete. Fix first! #RepairReuseReturn #RightToRepair #AfterTheUpgrade",
+      "callToAction": "Check your battery health before buying new",
+      "hashtags": ["#RepairReuseReturn", "#RightToRepair", "#AfterTheUpgrade"]
+    },
+    {
+      "id": "cap-short-3",
+      "category": "short-social",
+      "categoryLabel": "Short Social",
+      "platformSuggestion": "X / Threads / Microblogging",
+      "title": "Lithium Batteries in Curbside Trash",
+      "hook": "Lithium batteries crushed in garbage trucks cause hundreds of dangerous compaction fires every year.",
+      "content": "Never toss rechargeable gadgets or loose batteries into household trash or regular recycling bins. Tape the metal terminals and bring them to certified drop-off kiosks.\n\nKeep waste workers safe: Return it responsibly. #NoBatteriesInTrash #EWasteAwareness #AfterTheUpgrade",
+      "callToAction": "Find certified local e-waste drop-offs",
+      "hashtags": ["#NoBatteriesInTrash", "#EWasteAwareness", "#AfterTheUpgrade"]
+    },
+    {
+      "id": "cap-long-1",
+      "category": "long-organization",
+      "categoryLabel": "Long / Organization",
+      "platformSuggestion": "School Newsletter / Facebook Page / LinkedIn",
+      "title": "Closing the Campus Digital Divide with Refurbished Hardware",
+      "hook": "Why are functional laptops trapped in storage closets while students struggle without homework machines?",
+      "content": "Every semester, hundreds of laptops and tablets are retired when schools, offices, or families upgrade. Far too often, fear of data privacy causes perfectly capable computers to languish in closets until their batteries swell.\n\nHere is how we change that:\n• Proper cryptographic factory resets permanently destroy encryption keys without needing to crush functional motherboards.\n• Wiping devices and passing them to student lending libraries keeps children connected to STEM coursework.\n• Keeping electronics in circulation for 4 to 6 years slashes campus carbon footprints far more than recycling alone.\n\nJoin our community initiative: A gadget's usefulness should not end when you upgrade.\nRepair it. Reuse it. Return it responsibly.\n\n#AfterTheUpgrade #DigitalInclusion #RepairReuseReturn #ResponsibleTech #EWasteAwareness",
+      "callToAction": "Host an institutional hardware audit today",
+      "hashtags": ["#AfterTheUpgrade", "#DigitalInclusion", "#RepairReuseReturn", "#ResponsibleTech", "#EWasteAwareness"]
+    },
+    {
+      "id": "cap-long-2",
+      "category": "long-organization",
+      "categoryLabel": "Long / Organization",
+      "platformSuggestion": "Community Group / Parent-Teacher Association",
+      "title": "The Truth Behind the 'Junk Drawer': Our Collective Urban Mine",
+      "hook": "Take a look inside your home's junk drawer. You are looking at a miniature gold and cobalt mine.",
+      "content": "One metric ton of discarded smartphones contains roughly 300 times more gold and 10 times more copper than one metric ton of raw ore dug from the Earth. Yet millions of dormant phones sit idle in homes because owners don't know what to do with them.\n\nThis week, our organization is participating in the 'After the Upgrade' stewardship initiative:\n1. Audit: Dig out old chargers, phones, and tablets.\n2. Triage: If it works, wipe it and donate it. If it's slow, repurpose it for offline tasks.\n3. Recycle: If it's truly dead, route it to an R2v3 or e-Stewards certified recycler so precious materials can be melted back into clean manufacturing cycles.\n\nLet's keep toxic lead and cadmium out of landfills and return valuable materials to circulation.\n\n#AfterTheUpgrade #ThinkBeyondTheUpgrade #UrbanMining #ResponsibleTech #RepairReuseReturn",
+      "callToAction": "Join our community drawer cleanup challenge",
+      "hashtags": ["#AfterTheUpgrade", "#ThinkBeyondTheUpgrade", "#UrbanMining", "#ResponsibleTech", "#RepairReuseReturn"]
+    },
+    {
+      "id": "cap-long-3",
+      "category": "long-organization",
+      "categoryLabel": "Long / Organization",
+      "platformSuggestion": "Lab Administrator / Office Facilities Update",
+      "title": "Sustainable Tech Operations: The 50% Rule for Repair",
+      "hook": "How our organization evaluates aging technology before purchasing new hardware.",
+      "content": "To reduce electronic waste and practice genuine financial stewardship, we follow the 50% Rule of Hardware Economics:\n\n• If restoring a workstation (new SSD, fresh battery, fan clearing) costs less than 50% of the device's replacement cost, we repair it.\n• If a device falls out of primary frontline use, we repurpose it for dedicated secondary tasks: Linux print servers, digital signboards, or offline audio stations.\n• When hardware reaches true end-of-life, we require our recycling partners to verify zero informal export and zero-landfill diversion.\n\nWe encourage all partner schools and local businesses to adopt this framework.\n\nRepair it. Reuse it. Return it responsibly.\n#AfterTheUpgrade #SustainableBusiness #ResponsibleTech #RightToRepair",
+      "callToAction": "Review our device decision framework",
+      "hashtags": ["#AfterTheUpgrade", "#SustainableBusiness", "#ResponsibleTech", "#RightToRepair"]
+    },
+    {
+      "id": "cap-story-1",
+      "category": "story-sized",
+      "categoryLabel": "Story Slides",
+      "platformSuggestion": "Instagram Story / WhatsApp Status / Vertical Slide",
+      "title": "Slide 1 of 3: Did You Just Upgrade?",
+      "hook": "Upgraded your device? Here's what NOT to do with your old one:",
+      "content": "❌ Don't toss it into household garbage.\n❌ Don't leave it plugged in at 100% in a closet.\n❌ Don't forget to sign out of iCloud or Google FRP.\n\nSwipe to see 3 smart moves 👉",
+      "callToAction": "Swipe for next slide",
+      "hashtags": ["#AfterTheUpgrade", "#EWasteAwareness"]
+    },
+    {
+      "id": "cap-story-2",
+      "category": "story-sized",
+      "categoryLabel": "Story Slides",
+      "platformSuggestion": "Instagram Story / WhatsApp Status / Vertical Slide",
+      "title": "Slide 2 of 3: Three Better Options",
+      "hook": "3 Ways to Give Your Old Tech a Second Life:",
+      "content": "1. REPURPOSE: Turn your old phone into a 1080p desktop webcam with zero lag.\n2. DONATE: Perform a cryptographic wipe and give it to a student.\n3. REPAIR: Swap the battery and hand it down to family.\n\n#RepairReuseReturn #ThinkBeyondTheUpgrade",
+      "callToAction": "Swipe for disposal tips",
+      "hashtags": ["#RepairReuseReturn", "#ThinkBeyondTheUpgrade"]
+    },
+    {
+      "id": "cap-story-3",
+      "category": "story-sized",
+      "categoryLabel": "Story Slides",
+      "platformSuggestion": "Instagram Story / WhatsApp Status / Vertical Slide",
+      "title": "Slide 3 of 3: If It's Truly Dead",
+      "hook": "Device completely broken? Return it safely:",
+      "content": "⚠️ Tape the battery terminals with electrical tape.\n⚠️ Check for swelling or heat.\n⚠️ Drop off strictly at verified R2v3 or e-Stewards drop-off points.\n\nTap the link to take our community pledge!\n#AfterTheUpgrade #ResponsibleTech",
+      "callToAction": "Tap link in bio to take the pledge",
+      "hashtags": ["#AfterTheUpgrade", "#ResponsibleTech"]
+    },
+    {
+      "id": "cap-announce-1",
+      "category": "announcement",
+      "categoryLabel": "Announcement",
+      "platformSuggestion": "Morning Public Address / School Intercom",
+      "title": "Morning PA Script: Campus Tech Longevity Week",
+      "hook": "Good morning, students and staff! A quick announcement from the Tech Stewardship Club:",
+      "content": "\"Did you know that over 80% of a computer's total lifetime carbon footprint occurs before you even take it out of the box, during factory manufacturing? That means the greenest device is the one already in your backpack!\n\nThis week is 'After the Upgrade' Awareness Week. If you have an older phone, tablet, or tangled charging cords sitting at home, don't throw them away. Check our classroom guidelines on safe cleaning, battery care, and how to pass functioning devices to learners who need them.\n\nRemember: Repair it. Reuse it. Return it responsibly. Have a great day!\"",
+      "callToAction": "Share with homeroom teachers",
+      "hashtags": ["#AfterTheUpgrade", "#StudentAdvocacy"]
+    },
+    {
+      "id": "cap-announce-2",
+      "category": "announcement",
+      "categoryLabel": "Announcement",
+      "platformSuggestion": "Computer Lab Bulletin / Campus Email Blast",
+      "title": "Computer Lab Notice: Device Sanitization & Cable Drive",
+      "hook": "Campus Announcement: Safe Device Sanitization & Cable Triage Day",
+      "content": "Attention students and faculty:\n\nThe campus computer lab is hosting an open 'Device Health & Sanitization Drop-in' this Friday from 2:00 PM to 5:00 PM.\n\nBring in:\n• Laptops running slowly for thermal dust blow-out and startup optimization\n• Retired tablets you wish to sanitize cryptographically for student donation\n• Surplus USB and charging cables to test, label, and redistribute\n\nNote: We cannot accept swollen or physically leaking batteries. All device data is sanitized using certified open standards. Let's keep working silicon on campus!\n\nRepair it. Reuse it. Return it responsibly.",
+      "callToAction": "RSVP or drop by the campus computer lab",
+      "hashtags": ["#AfterTheUpgrade", "#CampusEwasteDrive", "#ResponsibleTech"]
+    }
+  ],
+  "posterHeadlines": [
+    {
+      "id": "poster-1",
+      "headline": "A GADGET’S USEFULNESS SHOULD NOT END WHEN YOU UPGRADE.",
+      "subtext": "Repair it. Reuse it. Return it responsibly. Keep functional electronics in circulation.",
+      "targetEnvironment": "Hallways, Computer Labs, Library Entrance"
+    },
+    {
+      "id": "poster-2",
+      "headline": "YOUR JUNK DRAWER IS AN URBAN GOLD MINE.",
+      "subtext": "Old phones contain gold, silver, copper, and cobalt. Don't let precious resources gather dust.",
+      "targetEnvironment": "Dormitory Common Rooms, Staff Lounges"
+    },
+    {
+      "id": "poster-3",
+      "headline": "DON’T TRASH THE BATTERY. PREVENT TRUCK FIRES.",
+      "subtext": "Crushed lithium batteries burst into flames inside waste trucks. Drop cells off at certified collection points only.",
+      "targetEnvironment": "Municipal Bins, Campus Recycling Stations"
+    },
+    {
+      "id": "poster-4",
+      "headline": "WIPE IT. DON’T CRUSH IT. PASS IT FORWARD.",
+      "subtext": "Cryptographic factory resets permanently protect your privacy so working computers can bridge the digital divide.",
+      "targetEnvironment": "IT Help Desks, Electronics Refurbishing Depots"
+    },
+    {
+      "id": "poster-5",
+      "headline": "THE 50% REPAIR RULE: FIX FIRST, BUY LAST.",
+      "subtext": "If a battery swap or screen fix costs less than half of replacement value, keep your machine alive.",
+      "targetEnvironment": "Engineering Classrooms, Maker Spaces"
+    },
+    {
+      "id": "poster-6",
+      "headline": "SLOW DOESN’T MEAN DEAD. DUST THE VENTS.",
+      "subtext": "A compressed-air cleaning and a fresh operating system install can restore factory performance in 15 minutes.",
+      "targetEnvironment": "School Computer Workstations, STEM Labs"
+    }
+  ],
+  "sevenDaySchedule": [
+    {
+      "dayNumber": 1,
+      "dayLabel": "Day 01",
+      "theme": "Awareness & The Upgrade Audit",
+      "focusArea": "Examining our consumption habits and counting dormant hardware",
+      "primaryObjective": "Help participants identify electronics trapped in drawers and understand the embodied carbon of hardware manufacturing.",
+      "suggestedOfflineAction": "Host a 15-minute 'Junk Drawer Inventory' at home or in your school club. Count how many dormant cables and phones exist across your household.",
+      "socialMediaPrompt": "Post a photo of your oldest still-working gadget with the caption: 'Still running strong after [X] years! #AfterTheUpgrade #ThinkBeyondTheUpgrade'"
+    },
+    {
+      "dayNumber": 2,
+      "dayLabel": "Day 02",
+      "theme": "Battery Health & Thermal Longevity",
+      "focusArea": "Physical maintenance habits that extend device life by 2–3 years",
+      "primaryObjective": "Demystify lithium battery chemistry and show why heat and deep discharges cause 90% of premature device fatigue.",
+      "suggestedOfflineAction": "Check the battery health settings on your phone or laptop. Clean dust out of fan intake vents using short bursts of compressed air.",
+      "socialMediaPrompt": "Share your device's battery health percentage and commit to the 80% charging sweet spot: 'Preserving my battery to avoid premature upgrades! #RepairReuseReturn #BatteryCare'"
+    },
+    {
+      "dayNumber": 3,
+      "dayLabel": "Day 03",
+      "theme": "Creative Hardware Repurposing",
+      "focusArea": "Finding unexpected second lives for machines no longer receiving OS updates",
+      "primaryObjective": "Demonstrate that discontinued software updates do not make cameras, screens, and processors useless.",
+      "suggestedOfflineAction": "Set up an older smartphone as a dedicated desktop webcam (using Camo or DroidCam) or mount an older tablet as a dedicated kitchen recipe dashboard.",
+      "socialMediaPrompt": "Showcase your creative second-life setup: 'Gave my old tablet a new job as a desk calendar! #TechReuse #AfterTheUpgrade'"
+    },
+    {
+      "dayNumber": 4,
+      "dayLabel": "Day 04",
+      "theme": "Data Dignity & Secure Sanitization",
+      "focusArea": "Overcoming the fear of data leakage that prevents hardware donation",
+      "primaryObjective": "Educate community members on cryptographic factory erasure and why formatting an encrypted phone makes data permanently unrecoverable.",
+      "suggestedOfflineAction": "Deactivate device-tracking accounts (iCloud Find My / Google FRP), perform a cryptographic wipe on a retired device, and eject physical microSD cards.",
+      "socialMediaPrompt": "Share our data sanitization checklist: 'Wipe it safely, don't let working computers sit trapped in closets! #DataPrivacy #AfterTheUpgrade'"
+    },
+    {
+      "dayNumber": 5,
+      "dayLabel": "Day 05",
+      "theme": "School & Community Donation Drive",
+      "focusArea": "Channelling functional surplus hardware to students and community learners",
+      "primaryObjective": "Bridge the digital divide by collecting wiped laptops, matching them with charging bricks, and delivering them to educational centers.",
+      "suggestedOfflineAction": "Partner with a local school, library, or community center to deliver surplus laptops and working peripherals.",
+      "socialMediaPrompt": "Tag a local youth learning center or school: 'Donating working hardware to empower learners in our neighborhood! #DigitalInclusion #RepairReuseReturn'"
+    },
+    {
+      "dayNumber": 6,
+      "dayLabel": "Day 06",
+      "theme": "Hazardous Materials & Safe Disposal",
+      "focusArea": "Eliminating battery compaction truck fires and soil contamination",
+      "primaryObjective": "Ensure non-working scrap goes strictly to R2v3 or e-Stewards certified facilities rather than municipal landfills.",
+      "suggestedOfflineAction": "Tape battery terminals with non-conductive electrical tape and drop off dead batteries at a verified municipal household hazardous waste kiosk.",
+      "socialMediaPrompt": "Post a reminder to your followers: 'Batteries don't belong in trash cans! Keep waste workers safe. #NoBatteriesInTrash #EWasteAwareness'"
+    },
+    {
+      "dayNumber": 7,
+      "dayLabel": "Day 07",
+      "theme": "The Community Pledge & Long-Term Habit",
+      "focusArea": "Solidifying permanent circular electronics habits and institutional policies",
+      "primaryObjective": "Mobilize students, families, and organizations to take the advocacy pledge and adopt the 50% repair rule permanently.",
+      "suggestedOfflineAction": "Visit the 'Take Action' page, sign the community advocacy pledge, and establish an ongoing e-waste collection depot in your home or school.",
+      "socialMediaPrompt": "Share your commitment: 'I took the After the Upgrade pledge to repair when practical and return responsibly. Join me! #AfterTheUpgrade #ThinkBeyondTheUpgrade'"
+    }
+  ],
+  "classroomPrompts": [
+    {
+      "id": "prompt-1",
+      "topic": "Planned Obsolescence vs. Durability",
+      "question": "Why do many modern smartphones glue batteries in place and solder RAM to the motherboard, and who benefits from this design choice?",
+      "context": "Historically, laptops and mobile phones featured removable backplates and user-replaceable batteries. Over the last decade, thinness and glue replaced screws.",
+      "keyDiscussionPoints": [
+        "Trade-offs between water resistance (IP ratings) and user-serviceable modularity",
+        "Economic incentives for manufacturers when repairs are difficult versus when consumers purchase new machines",
+        "The role of independent repair technicians and community repair cafes"
+      ]
+    },
+    {
+      "id": "prompt-2",
+      "topic": "Urban Mining vs. Raw Earth Extraction",
+      "question": "Why is it environmentally and economically superior to recover gold, silver, and copper from circuit boards compared to traditional mining?",
+      "context": "Mining one ton of raw geological ore yields just a few grams of precious metal while disrupting habitats. In contrast, one ton of circuit boards yields hundreds of grams of refined metals.",
+      "keyDiscussionPoints": [
+        "Energy and water consumption required for open-pit mining vs. closed-loop electronics smelting",
+        "Human rights concerns and geopolitical vulnerabilities in primary cobalt and rare-earth supply chains",
+        "Why informal burning of e-waste in developing nations must be replaced by certified R2v3/e-Stewards facilities"
+      ]
+    },
+    {
+      "id": "prompt-3",
+      "topic": "The Digital Divide and the Life of Computers",
+      "question": "How does corporate and personal reluctance to donate older laptops exacerbate educational inequality for students without home computers?",
+      "context": "Millions of students in underserved communities lack a laptop for homework and college applications, while millions of fully functional dual-core and quad-core laptops sit dormant in corporate storage.",
+      "keyDiscussionPoints": [
+        "Why lightweight Linux distributions (like Lubuntu or ChromeOS Flex) can make 8-year-old laptops run modern web browsers smoothly",
+        "How understanding NIST SP 800-88 cryptographic wiping eliminates corporate liability concerns",
+        "Ways student clubs can set up refurbishing initiatives on campus"
+      ]
+    },
+    {
+      "id": "prompt-4",
+      "topic": "Who Should Bear the Cost of Recycling?",
+      "question": "Should the cost of safe electronic waste recycling be paid by consumers through disposal fees, taxpayers through municipal waste budgets, or manufacturers through Extended Producer Responsibility (EPR)?",
+      "context": "Extended Producer Responsibility laws require manufacturers to fund the collection and safe end-of-life recycling of the goods they sell.",
+      "keyDiscussionPoints": [
+        "How EPR laws incentivize manufacturers to design products that are easier to disassemble and recycle",
+        "The danger of illegal e-waste dumping when municipal drop-off fees are charged to consumers",
+        "Global electronic waste tracking and Basel Convention compliance"
+      ]
+    }
+  ],
+  "offlineActivities": [
+    {
+      "id": "act-cable-swap",
+      "title": "Campus Cable Untangling & Charger Match Workshop",
+      "targetGroup": "Schools, Student Clubs, Maker Spaces",
+      "duration": "1 to 2 hours",
+      "summary": "Collect stray cables, sort them by connector type, test power delivery, bundle them with velcro ties, and establish a free 'take-a-cable, leave-a-cable' station.",
+      "materialsNeeded": [
+        "Sturdy bins or shoe boxes for sorting (USB-C, Micro-USB, Lightning, HDMI, DisplayPort, Barrel Jacks)",
+        "USB digital multimeter or basic phone charger tester",
+        "Velcro reusable cable wraps or paper twist ties",
+        "Label maker or masking tape and fine-tip permanent markers"
+      ],
+      "stepByStepInstructions": [
+        "Step 1: Announce a campus or classroom cable collection drive one week prior.",
+        "Step 2: Inspect cables for exposed copper wiring, fraying insulation, or bent pins. Safely discard damaged cords.",
+        "Step 3: Plug intact cables into a power meter or test device to verify they supply stable current.",
+        "Step 4: Roll cables in loose figure-eight loops to avoid internal wire fatigue and secure with reusable wraps.",
+        "Step 5: Label the voltage/amp rating on power bricks and place them in a public library or lab free-swap basket."
+      ],
+      "safetyNotes": "Never test cords with frayed or charred outer jackets. Immediately discard damaged high-voltage AC wall cords."
+    },
+    {
+      "id": "act-repair-cafe",
+      "title": "Community Hardware Repair Cafe & Cleaning Clinic",
+      "targetGroup": "High Schools, Universities, Tech Clubs",
+      "duration": "2 to 3 hours",
+      "summary": "Invite students and teachers to bring sluggish laptops and phones for non-destructive maintenance: clearing dust vents, checking battery wear, and software cleanups.",
+      "materialsNeeded": [
+        "Cans of compressed air or electric cordless air dusters",
+        "Lint-free microfiber cloths and 70% isopropyl alcohol wipes",
+        "Precision electronics screwdriver sets (Torx, Pentalobe, Phillips)",
+        "Anti-static work mats and wooden/plastic port cleaning probes"
+      ],
+      "stepByStepInstructions": [
+        "Step 1: Set up dedicated stations: Cleaning Station, Battery Health Audit Station, and Software Startup Audit Station.",
+        "Step 2: At the Cleaning Station, power down machines and blow compressed air into heatsinks while holding fan blades steady with a plastic probe.",
+        "Step 3: Use wooden toothpicks under bright light to gently dislodge pocket lint from USB-C charging ports.",
+        "Step 4: At the Software Station, guide participants to check their Task Manager/Activity Monitor startup items and uninstall dormant apps.",
+        "Step 5: Record temperature and boot time improvements before and after maintenance."
+      ],
+      "safetyNotes": "Do not attempt to open swollen, hot, or deformed battery assemblies. Keep all liquids away from open electronics."
+    },
+    {
+      "id": "act-dorm-drawer-audit",
+      "title": "Residence Hall & Dormitory 'Drawer Audit' Contest",
+      "targetGroup": "University Campuses, Boarding Schools",
+      "duration": "1 week campaign",
+      "summary": "A friendly competition between student dormitories or homeroom classes to safely gather the highest number of dormant gadgets for donation or certified recovery.",
+      "materialsNeeded": [
+        "Heavy-duty collection boxes labeled with clear guidelines",
+        "Electrical tape dispensers for terminal insulation",
+        "Triage log sheet to record working vs. dead items",
+        "Fire-safe metal bucket with sand for any surprise battery hazards"
+      ],
+      "stepByStepInstructions": [
+        "Step 1: Place a monitored collection station in each participating building lobby.",
+        "Step 2: Instruct participants to tape all battery contacts before depositing items.",
+        "Step 3: Triage collected devices twice weekly: separate working hardware suitable for student wiping from dead e-waste.",
+        "Step 4: Weigh and count items per floor to determine the community winner.",
+        "Step 5: Deliver wiped machines to local educational donation partners and dead scrap to an R2v3 recycler."
+      ],
+      "safetyNotes": "Station must be indoor, monitored, and dry. Do not allow batteries to sit in humid or outdoor conditions."
+    }
+  ],
+  "personalizationTips": [
+    {
+      "id": "tip-1",
+      "tipTitle": "Share Your Real Hardware Age",
+      "recommendation": "People connect with genuine stories. Share a photo of your 5-year-old laptop or phone and list what repairs or maintenance kept it running.",
+      "exampleSnippet": "“Proudly writing this post on my 2019 ThinkPad. One battery swap, an SSD upgrade, and zero desire to spend ₱65,000 on an upgrade. #AfterTheUpgrade #RightToRepair”"
+    },
+    {
+      "id": "tip-2",
+      "tipTitle": "Tag Your School, Club, or Neighborhood",
+      "recommendation": "Anchor the message locally by naming your student organization, school laboratory, or municipal drop-off location.",
+      "exampleSnippet": "“The Tech Club at [School Name] is participating in #AfterTheUpgrade this week! Bring your tangled cords to Room 204 for our student cable swap. #CampusEwasteDrive”"
+    },
+    {
+      "id": "tip-3",
+      "tipTitle": "Showcase 'Before & After' Maintenance",
+      "recommendation": "Visual evidence of simple care—like a photo of dust blown out of a laptop heatsink or lint extracted from a charging port—proves that maintenance works.",
+      "exampleSnippet": "“Cleaned out 3 years of compacted desk dust from my laptop fan vents today. Temps dropped 14°C and the throttling stopped! Don't upgrade when you can clean. #FixFirst”"
+    },
+    {
+      "id": "tip-4",
+      "tipTitle": "Preserve Core Facts & Slogans",
+      "recommendation": "While customizing your intro and photos, preserve the core campaign slogan and verified facts so the advocacy message remains consistent.",
+      "exampleSnippet": "“Always pair your personal story with our anchor slogan: 'A gadget's usefulness should not end when you upgrade. Repair it. Reuse it. Return it responsibly.'”"
+    }
+  ]
+}

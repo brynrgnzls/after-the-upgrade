@@ -1,0 +1,236 @@
+{
+  "maintenanceGuides": [
+    {
+      "id": "care-phones-laptops",
+      "title": "Everyday Phone & Laptop Care",
+      "category": "phone-laptop-care",
+      "targetHardware": "Smartphones, Tablets & Laptops",
+      "difficulty": "Beginner",
+      "plainEnglishSummary": "Most hardware breakdowns happen from everyday physical stress and trapped heat. A few simple handling habits prevent premature screen cracks, hinge failures, and worn-out charging ports.",
+      "stepByStepGuidance": [
+        "Use two hands to open your laptop from the center of the lid, not from the top corners, to avoid twisting the display hinges.",
+        "Keep your laptop on a flat desk or hard book. Soft blankets and pillows choke the cooling intake vents on the bottom, causing the processor to run hot.",
+        "Never yank charging cables out by the thin cord; always grasp the sturdy plastic plug head.",
+        "Invest in a durable protective case and tempered glass screen protector. A ₱750 protector absorbs shocks that would otherwise cost ₱8,000+ to repair."
+      ],
+      "whatToAvoid": [
+        "Do not leave devices in closed vehicles during hot sunny days. Temperatures can easily reach 140°F (60°C), permanently damaging battery chemistry and warping adhesive seals.",
+        "Do not close laptop lids with pens, earbuds, or paper clips resting on the keyboard; this is the number one cause of shattered internal displays.",
+        "Do not eat crumbly food directly over keyboards. Crumbs jam scissor mechanisms and attract moisture."
+      ]
+    },
+    {
+      "id": "care-batteries",
+      "title": "Battery Care: Keeping Your Battery Healthy",
+      "category": "battery-care",
+      "targetHardware": "All Rechargeable Electronics",
+      "difficulty": "Beginner",
+      "plainEnglishSummary": "Rechargeable batteries are like muscles: they wear out faster when stretched to extremes. Keeping your battery between 20% and 80% charge can easily double its useful lifespan.",
+      "stepByStepGuidance": [
+        "Turn on 'Optimized Battery Charging' or 'Battery Protection' in your phone and laptop settings. This caps the charge at 80% to 85% when plugged in continuously.",
+        "Recharge your device when it reaches around 20% to 30% rather than waiting until it completely dies at 0%.",
+        "If you are putting an old phone or laptop in storage, charge it to about 50% first and turn it off completely. Storing a device at 0% can cause the battery to become chemically dead.",
+        "Keep your device cool while charging. Remove heavy, insulated phone cases if the phone feels noticeably warm while connected to a fast charger."
+      ],
+      "whatToAvoid": [
+        "Do not use cheap, uncertified ₱100 sidewalk charging bricks. Cheap chargers deliver erratic electrical currents that degrade battery cells and pose fire risks.",
+        "Do not game or perform heavy video rendering while your phone is sitting under a blanket on a charger.",
+        "Do not panic if your battery runtime drops after 3 years. A battery replacement costs a tiny fraction of a new device and restores original battery life."
+      ]
+    },
+    {
+      "id": "care-cleaning",
+      "title": "Safe Cleaning: Screens, Keyboards & Ports",
+      "category": "safe-cleaning",
+      "targetHardware": "Screens, Enclosures & Connectors",
+      "difficulty": "Beginner",
+      "plainEnglishSummary": "Dust and grime do not just look untidy—they trap heat, insulate cooling fans, and clog charging ports. Here is how to safely clean electronics without stripping delicate screen coatings.",
+      "stepByStepGuidance": [
+        "Power off and unplug your device before applying any cleaning cloth.",
+        "Use a clean, dry microfiber cloth (the type used for eyeglasses) to gently wipe fingerprints and smudges from glass screens.",
+        "If grime is stubborn, dampen the microfiber cloth with a small amount of 70% isopropyl alcohol or distilled water. Never spray liquid directly onto the screen or keyboard.",
+        "Use a wooden toothpick or dry, soft-bristle toothbrush to gently coax compacted pocket lint out of your phone's charging port.",
+        "Use short bursts of a compressed air can to blow out dust from laptop fan grilles and keyboard keys."
+      ],
+      "whatToAvoid": [
+        "Never use household glass cleaner (like Windex), bleach, vinegar, or abrasive paper towels on screens. They strip the oleophobic anti-glare coatings.",
+        "Never poke metal paper clips, needles, or safety pins into charging ports. Metal can short-circuit the sensitive golden pin connectors.",
+        "Do not shake canned air upside down while spraying; this expels freezing liquid propellant that can crack delicate plastics."
+      ]
+    },
+    {
+      "id": "care-storage",
+      "title": "Storage Management: Freeing Up Drive Space",
+      "category": "storage-management",
+      "targetHardware": "All Phones, Tablets & Computers",
+      "difficulty": "Beginner",
+      "plainEnglishSummary": "Solid-state drives need breathing room to organize files and memory. When your drive is more than 90% full, everything slows to a crawl. Freeing up space restores responsiveness instantly.",
+      "stepByStepGuidance": [
+        "Aim to keep at least 15% to 20% of your total storage drive free as temporary working room for the operating system.",
+        "Sort your phone photo library by videos; backing up or deleting large, forgotten 4K video clips immediately recovers gigabytes.",
+        "Review your downloaded podcast episodes, offline streaming playlists, and audiobooks.",
+        "Empty your operating system's 'Downloads' folder and clear out trash bins on external drives."
+      ],
+      "whatToAvoid": [
+        "Do not install shady 'magic memory booster' or 'driver doctor' apps. They often install persistent background adware that slows your computer even further.",
+        "Do not ignore low storage warnings until your phone refuses to turn on. An overloaded operating system can fail to boot."
+      ]
+    },
+    {
+      "id": "care-software",
+      "title": "Software Maintenance: Keeping It Smooth",
+      "category": "software-maintenance",
+      "targetHardware": "Operating Systems & Applications",
+      "difficulty": "Beginner",
+      "plainEnglishSummary": "Over time, computers accumulate background startup programs, leftover caches, and forgotten browser extensions. Regular digital decluttering keeps your machine feeling snappy.",
+      "stepByStepGuidance": [
+        "Restart your device at least once a week. Restarting flushes RAM memory leaks and completes pending system patches.",
+        "Check your 'Startup Apps' list in Windows or Mac settings and switch off apps (like Spotify, Discord, or game launchers) that try to launch automatically when you boot up.",
+        "Uninstall browser extensions you no longer use. Every active extension consumes memory on every tab you open.",
+        "Install regular security patches. Updates protect against modern vulnerabilities and fix system bugs."
+      ],
+      "whatToAvoid": [
+        "Do not postpone critical security updates indefinitely.",
+        "Do not keep dozens of unused apps installed 'just in case'—you can always redownload them when needed."
+      ]
+    },
+    {
+      "id": "care-repair-vs-replace",
+      "title": "Repairing Instead of Immediately Replacing",
+      "category": "repair-vs-replace",
+      "targetHardware": "Laptops & Smartphones",
+      "difficulty": "Intermediate",
+      "plainEnglishSummary": "Most device frustrations stem from one worn-out component, not a failed processor. Identifying the specific failing part saves thousands of pesos.",
+      "stepByStepGuidance": [
+        "If your phone battery drains in 2 hours: Replace the battery for ₱2,000–₱3,500 instead of spending ₱45,000+ on a new phone.",
+        "If your older laptop takes 5 minutes to boot up: The mechanical hard drive is likely the culprit. Swapping it for a ₱1,800 Solid State Drive (SSD) makes it boot in 15 seconds.",
+        "If a key fell off your keyboard: Individual keycaps and hinge clips cost ₱250 online and snap into place in seconds without replacing the whole laptop.",
+        "If your laptop fan is screaming constantly: A 20-minute thermal cleaning and new ₱450 thermal paste application cools the processor back to factory silence."
+      ],
+      "whatToAvoid": [
+        "Do not assume that an out-of-warranty notice from a manufacturer means a device cannot be serviced. Independent repair shops and repair cafes service devices long after vendor support ends.",
+        "Do not discard a laptop simply because the charging cord broke. Replacement power adapters are widely available."
+      ]
+    }
+  ],
+  "reuseIdeas": [
+    {
+      "id": "reuse-webcam",
+      "oldDevice": "Old Smartphone with Working Camera",
+      "newPurpose": "Dedicated High-Definition Desktop Webcam",
+      "setupSteps": [
+        "Download a trusted USB/Wi-Fi webcam utility (such as Camo or DroidCam) on your phone and computer.",
+        "Connect the phone to your computer using a USB cable for zero lag.",
+        "Mount the phone on a simple mini-tripod or monitor clip.",
+        "Enjoy crystal-clear 1080p video that outperforms 95% of built-in laptop cameras."
+      ],
+      "requiredAccessories": ["USB cable", "Inexpensive mini-tripod or phone clip"]
+    },
+    {
+      "id": "reuse-kitchen-dashboard",
+      "oldDevice": "Older Tablet (iPad or Android)",
+      "newPurpose": "Smart Kitchen Recipe Hub & Family Calendar",
+      "setupSteps": [
+        "Perform a factory reset and sign in with a shared family profile.",
+        "Bookmark your favorite recipe websites or install cooking apps.",
+        "Set the screen timeout to stay awake while plugged into power.",
+        "Mount the tablet on a refrigerator stand or kitchen wall bracket for hands-free cooking guides."
+      ],
+      "requiredAccessories": ["Tablet stand or wall mount", "Long charging cable"]
+    },
+    {
+      "id": "reuse-writing-terminal",
+      "oldDevice": "Older Laptop with Degraded Battery",
+      "newPurpose": "Distraction-Free Writing & Homework Station",
+      "setupSteps": [
+        "Back up all old personal files and wipe the drive.",
+        "Install a lightweight, clean Linux distribution (like Lubuntu or Linux Mint) or a minimal browser profile.",
+        "Keep it dedicated solely to writing, research, and typing without gaming or heavy social media apps.",
+        "Use as a dedicated homework machine for students in the household."
+      ],
+      "requiredAccessories": ["AC power adapter"]
+    },
+    {
+      "id": "reuse-media-hub",
+      "oldDevice": "Retired Desktop Tower or Mini-PC",
+      "newPurpose": "Home Media Server & Automatic File Backup Vault",
+      "setupSteps": [
+        "Connect the computer directly to your home router with an Ethernet network cable.",
+        "Install open-source media streaming or network file sharing software (like Jellyfin or Nextcloud).",
+        "Connect external hard drives to store family photos, music, and documents.",
+        "Access your media across all your household devices without paying monthly cloud subscription fees."
+      ],
+      "requiredAccessories": ["Ethernet cable", "External storage drive"]
+    },
+    {
+      "id": "reuse-smart-clock",
+      "oldDevice": "Compact Old Smartphone",
+      "newPurpose": "Nightstand Clock, Sound Machine & Offline Audio Player",
+      "setupSteps": [
+        "Remove the SIM card and turn off cellular antennas (keep Wi-Fi or turn on airplane mode).",
+        "Download a bedside clock app with dim night-mode display and soothing ambient sounds.",
+        "Load podcasts or audiobooks onto the internal storage for offline bedtime listening.",
+        "Keep your active primary phone charging outside the bedroom for better sleep."
+      ],
+      "requiredAccessories": ["Phone stand", "Charging cable"]
+    }
+  ],
+  "donationSteps": [
+    {
+      "step": "1. Verify Core Functionality",
+      "description": "Ensure the device powers on, displays an intact image, connects to Wi-Fi, and holds a charge for at least a few minutes."
+    },
+    {
+      "step": "2. Gather Essential Accessories",
+      "description": "Bundle the original power adapter, power brick, and necessary cables. Schools and charities struggle to source orphaned chargers."
+    },
+    {
+      "step": "3. Back Up Your Personal Data",
+      "description": "Copy your photos, schoolwork, and browser bookmarks to an external drive or cloud storage before beginning any wipe."
+    },
+    {
+      "step": "4. Sign Out & Remove Activation Locks",
+      "description": "Crucial: Sign out of your Apple ID (iCloud), Google Account, or Microsoft Account. If activation locks remain enabled, the device becomes an unusable paperweight for the new learner."
+    },
+    {
+      "step": "5. Factory Reset with Full Disk Wipe",
+      "description": "Navigate to the device's Settings > System > Reset and choose 'Erase All Content and Settings' with the full wipe option enabled."
+    },
+    {
+      "step": "6. Clean and Label the Device",
+      "description": "Wipe the chassis and screen with a microfiber cloth and 70% isopropyl alcohol. Attach a note with the specifications (e.g. 'Core i5, 8GB RAM, 256GB SSD') to help volunteer technicians sort it quickly."
+    }
+  ],
+  "retirementThreshold": [
+    {
+      "issue": "Cracked Screen or Glass",
+      "verdict": "Repair Feasible",
+      "explanation": "Screen replacement is a standardized, routine repair for almost all laptops and phones. It restores full visual quality for a fraction of a new machine's price.",
+      "recommendation": "Obtain repair quotes from independent repair shops or local repair cafes."
+    },
+    {
+      "issue": "Worn Battery Lasting Less than 1 Hour",
+      "verdict": "Repair Feasible",
+      "explanation": "Batteries are consumable parts designed to be swapped every 3 to 4 years. Replacing a battery cell does not compromise the processor or memory.",
+      "recommendation": "Order a certified replacement battery pack or have a technician install one."
+    },
+    {
+      "issue": "Severe Motherboard Water Corrosion & Short Circuits",
+      "verdict": "Consider Replacement / Certified Recycling",
+      "explanation": "When liquid penetrates internal multi-layer logic boards, microscopic copper traces dissolve and multiple microchips fail simultaneously. Diagnosis and micro-soldering often exceed the total value of the machine.",
+      "recommendation": "Remove and sanitize the storage drive if salvageable, then route the chassis to a certified e-waste processor."
+    },
+    {
+      "issue": "Repair Estimate Exceeds 65% of Refurbished Replacement Cost",
+      "verdict": "Consider Replacement / Certified Recycling",
+      "explanation": "If multiple expensive components (e.g. cracked display + failed battery + dead motherboard) fail at once, purchasing a certified refurbished newer computer offers better longevity.",
+      "recommendation": "Safely harvest reusable parts (RAM, SSD, power cord) and recycle the remaining carcass responsibly."
+    },
+    {
+      "issue": "Absence of Security Updates & Inability to Run Supported OS",
+      "verdict": "Consider Replacement / Certified Recycling",
+      "explanation": "Devices with 32-bit legacy processors that cannot receive modern TLS encryption security patches become vulnerable on the public internet.",
+      "recommendation": "Repurpose as an offline typewriter, smart alarm, or media player; avoid using for online banking or email."
+    }
+  ]
+}

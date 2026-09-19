@@ -1,0 +1,66 @@
+[
+  {
+    "id": "action-battery-calibration",
+    "title": "Calibrate and Practice Healthy Battery Charging",
+    "description": "Configure charge limits to 80% on laptops and phones when used at a desk, preventing premature electrochemical degradation.",
+    "category": "maintenance",
+    "targetAudience": "Gadget owners",
+    "impactLevel": "low-effort-high-impact"
+  },
+  {
+    "id": "action-student-cleaning",
+    "title": "Clear Laptop Dust and Thermal Air Vents",
+    "description": "Use compressed air to blow out dust accumulation from laptop heat pipes and fans to avoid thermal throttling and component fatigue.",
+    "category": "maintenance",
+    "targetAudience": "Students",
+    "impactLevel": "low-effort-high-impact"
+  },
+  {
+    "id": "action-lab-audit",
+    "title": "Establish an Institutional Hardware Inventory Audit",
+    "description": "Catalog all computers, monitors, and parts in storage rooms. Identify working systems suitable for student checkout programs.",
+    "category": "preparation",
+    "targetAudience": "Schools and computer laboratories",
+    "impactLevel": "comprehensive"
+  },
+  {
+    "id": "action-office-data-wipe",
+    "title": "Institute Standardized NIST SP 800-88 Data Sanitization",
+    "description": "Implement verified cryptographic data wiping procedures on all retired corporate workstations before donation or recycling.",
+    "category": "preparation",
+    "targetAudience": "Offices and small businesses",
+    "impactLevel": "moderate"
+  },
+  {
+    "id": "action-family-drawer-cleanup",
+    "title": "Clear the 'Junk Drawer' of Dormant Gadgets",
+    "description": "Gather unused phones, tablets, and cables sitting in storage. Test operation and route them toward donation or certified e-waste drop-off.",
+    "category": "donation",
+    "targetAudience": "Families with unused electronics",
+    "impactLevel": "low-effort-high-impact"
+  },
+  {
+    "id": "action-enthusiast-modular-upgrades",
+    "title": "Prioritize Repairable Hardware and Open Firmware",
+    "description": "Choose devices with documented teardown guides, accessible screws, swappable SSDs/RAM, and community repair support.",
+    "category": "maintenance",
+    "targetAudience": "Technology enthusiasts",
+    "impactLevel": "moderate"
+  },
+  {
+    "id": "action-school-donation-drive",
+    "title": "Organize a Campus Electronics Take-Back & Donation Drive",
+    "description": "Partner with local community learning centers to collect gently used laptops, wipe them safely, and supply underserved students.",
+    "category": "donation",
+    "targetAudience": "Schools and computer laboratories",
+    "impactLevel": "comprehensive"
+  },
+  {
+    "id": "action-certified-recycling-handover",
+    "title": "Verify Certified Recycler Credentials Before Drop-off",
+    "description": "Ensure e-waste processors hold recognized environmental certifications (such as R2v3 or e-Stewards) that prohibit illegal offshore dumping.",
+    "category": "recycling",
+    "targetAudience": "Offices and small businesses",
+    "impactLevel": "moderate"
+  }
+]

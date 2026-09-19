@@ -1,0 +1,168 @@
+{
+  "name": "After the Upgrade",
+  "tagline": "Sustainable electronics advocacy for a circular digital future",
+  "mainMessage": "A gadget’s usefulness should not end when you upgrade.",
+  "slogan": "Repair it. Reuse it. Return it responsibly.",
+  "mission": "To empower students, schools, gadget owners, and workplaces to prolong device lifespans, advocate for the right to repair, protect user data, and eliminate hazardous e-waste from municipal waste streams through responsible circular technology consumption.",
+  "vision": "A culture where digital technology consumption is grounded in ecological responsibility, where repairable hardware is celebrated, and where every retired electronic device finds a productive second chapter or safe certified recycling.",
+  "whyCreated": "Consumer hardware marketing encourages an endless cycle of annual upgrades, conditioning consumers to treat functioning phones and computers as obsolete as soon as newer models appear. This rapid turnover generates immense amounts of toxic electronic waste, squanders energy-intensive silicon chips, and deepens the digital divide while leaving functional computers trapped in closets or crushed in landfills.",
+  "audiences": [
+    "Students",
+    "Gadget owners",
+    "Schools and computer laboratories",
+    "Offices and small businesses",
+    "Families with unused electronics",
+    "Technology enthusiasts"
+  ],
+  "campaignActions": [
+    {
+      "action": "Repair",
+      "tag": "ACTION_01",
+      "summary": "Fix wear and tear before declaring hardware obsolete. Battery replacements, screen swaps, and dust cleanouts restore years of reliable service.",
+      "route": "/extend-device-life",
+      "actionLabel": "Explore Repair & Maintenance",
+      "keyPractices": [
+        "Replace degraded batteries instead of purchasing new phones or laptops.",
+        "Clear thermal dust vents to prevent throttling and component stress.",
+        "Upgrade modular storage (HDDs to SSDs) and expand memory RAM."
+      ]
+    },
+    {
+      "action": "Reuse",
+      "tag": "ACTION_02",
+      "summary": "Repurpose functional devices for secondary household, educational, or office tasks, or pass them to learners who need capable computing equipment.",
+      "route": "/device-decision",
+      "actionLabel": "View Creative Reuse Ideas",
+      "keyPractices": [
+        "Turn older smartphones into dedicated high-resolution webcams or smart clocks.",
+        "Repurpose retired laptops as lightweight media centers or backup servers.",
+        "Donate wiped tablets and workstations to community learning centers."
+      ]
+    },
+    {
+      "action": "Return Responsibly",
+      "tag": "ACTION_03",
+      "summary": "When electronics reach genuine end-of-life, keep toxic chemicals out of standard landfills by returning items strictly to verified, certified e-waste processors.",
+      "route": "/safe-disposal",
+      "actionLabel": "Read Safe Disposal Protocols",
+      "keyPractices": [
+        "Never discard batteries or electronics into municipal curbside garbage.",
+        "Tape lithium-ion battery terminals to prevent compaction fires.",
+        "Verify third-party recycler certifications such as R2v3 or e-Stewards."
+      ]
+    }
+  ],
+  "pillars": [
+    {
+      "name": "Repair",
+      "description": "Troubleshoot common component failures, replace aging batteries, upgrade modular storage and memory, and champion the right to repair.",
+      "actionLabel": "Explore Maintenance & Repair",
+      "route": "/extend-device-life"
+    },
+    {
+      "name": "Reuse",
+      "description": "Repurpose retired laptops as dedicated servers or writing stations, turn tablets into digital dashboards, and pass hardware to family or peers.",
+      "actionLabel": "Find Creative Reuse Ideas",
+      "route": "/device-decision"
+    },
+    {
+      "name": "Donate",
+      "description": "Bridge the digital divide by cryptographically sanitizing personal data and supplying working machines to schools and learning centers.",
+      "actionLabel": "Prepare for Secure Donation",
+      "route": "/data-safety"
+    },
+    {
+      "name": "Recycle",
+      "description": "When hardware suffers terminal damage, route components to certified e-waste processors to reclaim scarce minerals and isolate toxic heavy metals.",
+      "actionLabel": "Learn Safe Disposal Standards",
+      "route": "/safe-disposal"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "obj-lifespan",
+      "title": "Extend Average Device Service Life",
+      "description": "Provide practical, nontechnical maintenance guides that help gadget owners keep their phones, tablets, and laptops running reliably for at least 4 to 6 years.",
+      "targetGroup": "Gadget Owners & Families"
+    },
+    {
+      "id": "obj-landfill-diversion",
+      "title": "Eliminate Curbside Battery & Gadget Disposal",
+      "description": "Educate the public on the severe fire risks of lithium-ion batteries and ensure zero discarded electronics end up in municipal trash compactor trucks.",
+      "targetGroup": "General Public"
+    },
+    {
+      "id": "obj-data-privacy-confidence",
+      "title": "Demystify Secure Data Sanitization",
+      "description": "Provide clear, certified wipe protocols so owners and businesses feel confident donating functional hardware instead of hoarding it out of data theft fears.",
+      "targetGroup": "Offices & Individuals"
+    },
+    {
+      "id": "obj-educational-equity",
+      "title": "Channel Usable Tech to Underserved Learners",
+      "description": "Facilitate donation pipelines connecting surplus laboratory and corporate computing hardware with schools and students lacking digital access.",
+      "targetGroup": "Schools & Laboratories"
+    }
+  ],
+  "principles": [
+    {
+      "title": "Fix First, Upgrade Last",
+      "motto": "Longevity is the purest form of sustainability.",
+      "description": "Before buying a replacement, diagnose the root bottleneck. Sluggishness is usually just storage bloat or an exhausted battery pack, both easily solvable."
+    },
+    {
+      "title": "Design for Continuity",
+      "motto": "Hardware outlives marketing cycles.",
+      "description": "A processor released five years ago remains more than capable of word processing, web browsing, coding, and remote collaboration when kept uncluttered."
+    },
+    {
+      "title": "Data Dignity & Security",
+      "motto": "Privacy fears should not create electronic waste.",
+      "description": "Cryptographic key destruction and certified NIST factory resets guarantee complete privacy without needing to physically crush working motherboards."
+    },
+    {
+      "title": "Zero Curbside Landfilling",
+      "motto": "Hazardous elements belong in closed recycling loops.",
+      "description": "Electronics harbor both toxic elements (lead, cadmium, mercury) and valuable resources (gold, copper, lithium). Neither belongs in a garbage pit."
+    }
+  ],
+  "responsibleConsumption": {
+    "headline": "Moving from Disposability to Tech Stewardship",
+    "explanation": "Responsible technology consumption means recognizing that every digital gadget carries an embodied ecological footprint accumulated during silicon fabrication, rare mineral mining, and international shipping. Practicing stewardship involves resisting artificial upgrade peer pressure, choosing modular and repairable products, keeping devices in active service as long as possible, and ensuring ethical end-of-life handover.",
+    "coreTenets": [
+      "Prioritizing repairability, modular components, and software support when purchasing new equipment.",
+      "Conducting regular preventive cleaning and healthy battery charging rather than running hardware into the ground.",
+      "Distinguishing genuine performance needs from novelty cosmetic feature updates.",
+      "Safely sanitizing and gifting functioning hardware to communities facing hardware shortages."
+    ]
+  },
+  "communityParticipation": [
+    {
+      "group": "Schools and Academic Institutions",
+      "roleDescription": "Campuses generate consistent hardware cycles and train the next generation of digital citizens.",
+      "practicalActivities": [
+        "Establish student-run Hardware Repair Cafes where learners diagnose laptops and replace batteries under faculty guidance.",
+        "Organize end-of-semester Electronics Take-Back Drives for dormitory move-out periods.",
+        "Adopt Linux-based operating systems on older computer lab workstations to extend lab usefulness by 3 to 5 years."
+      ]
+    },
+    {
+      "group": "Offices and Small Businesses",
+      "roleDescription": "Commercial enterprises replace fleets of identical, well-maintained corporate machines every few years.",
+      "practicalActivities": [
+        "Adopt standardized NIST SP 800-88 cryptographic wipe protocols to safely donate decommissioned PCs to local schools.",
+        "Establish an in-office 'Spare Cables and Adapters' repository to prevent repeated bulk accessory purchases.",
+        "Partner exclusively with certified R2v3 or e-Stewards electronic recycling vendors."
+      ]
+    },
+    {
+      "group": "Local Communities and Families",
+      "roleDescription": "Household drawers often contain multiple generations of dormant but functional electronics.",
+      "practicalActivities": [
+        "Conduct an annual 'Junk Drawer Tech Audit' to test, wipe, and donate dormant phones and tablets.",
+        "Share charger cords, monitor cables, and power adapters across neighborhood swap groups.",
+        "Deliver dead rechargeable batteries strictly to verified hazardous waste drop-off kiosks."
+      ]
+    }
+  ]
+}

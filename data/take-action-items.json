@@ -1,0 +1,146 @@
+[
+  {
+    "id": "action-drawer-audit",
+    "category": "cleanup-challenge",
+    "categoryLabel": "Device Cleanup Challenge",
+    "title": "Audit the 'Junk Drawer' and Storage Closets",
+    "description": "Gather every unused phone, dormant tablet, legacy camera, and obsolete gadget sitting in dark drawers. Group them by working vs. non-working condition.",
+    "impact": "Uncovers dormant value and prevents forgotten battery swelling",
+    "timeEstimate": "20–30 mins"
+  },
+  {
+    "id": "action-cable-untangle",
+    "category": "cleanup-challenge",
+    "categoryLabel": "Device Cleanup Challenge",
+    "title": "Untangle, Test, and Bundle Peripherals & Cables",
+    "description": "Sort accumulated AC adapters, USB cords, display cables, and mice. Match power bricks with correct voltages, wrap cords with velcro ties, and separate frayed wiring.",
+    "impact": "Prevents redundant purchasing of duplicate accessories",
+    "timeEstimate": "15–25 mins"
+  },
+  {
+    "id": "action-battery-hazard-check",
+    "category": "cleanup-challenge",
+    "categoryLabel": "Device Cleanup Challenge",
+    "title": "Perform a Physical Battery Hazard Inspection",
+    "description": "Inspect older laptops, portable gaming devices, and phones for swollen backplates, deformed cases, or screen separation. Segregate any compromised cells into fire-safe containers.",
+    "impact": "Critical fire prevention for household and waste handling",
+    "timeEstimate": "10 mins"
+  },
+  {
+    "id": "action-home-depot-box",
+    "category": "cleanup-challenge",
+    "categoryLabel": "Device Cleanup Challenge",
+    "title": "Establish a Dedicated Home E-Waste Drop Box",
+    "description": "Designate a sturdy box or container in your home or garage labeled 'E-Waste / Certified Recycling'. Accumulate dead cells and broken accessories here instead of tossing them in bins.",
+    "impact": "Eliminates curbside trash contamination permanently",
+    "timeEstimate": "5 mins"
+  },
+  {
+    "id": "action-file-backup-rule",
+    "category": "digital-declutter",
+    "categoryLabel": "Digital Decluttering Activity",
+    "title": "Consolidate Backups Using the 3-2-1 Strategy",
+    "description": "Ensure your personal photos, documents, and creative work exist in three copies, on two distinct physical media formats, with one copy safely off-site or cloud-encrypted.",
+    "impact": "Enables risk-free device resetting without data panic",
+    "timeEstimate": "30–45 mins"
+  },
+  {
+    "id": "action-app-startup-audit",
+    "category": "digital-declutter",
+    "categoryLabel": "Digital Decluttering Activity",
+    "title": "Audit Startup Applications and Dormant Software",
+    "description": "Review Task Manager (Windows) or Activity Monitor (macOS) to disable background utilities launching at boot. Uninstall heavy programs you haven't opened in six months.",
+    "impact": "Restores system responsiveness and reduces memory pressure",
+    "timeEstimate": "15 mins"
+  },
+  {
+    "id": "action-cloud-purge-redundancy",
+    "category": "digital-declutter",
+    "categoryLabel": "Digital Decluttering Activity",
+    "title": "Purge Redundant Downloads and Duplicate Screenshots",
+    "description": "Clear out massive cached downloads, temporary video renders, and duplicate screenshots taking up internal flash storage. Maintain 15%–20% free drive capacity.",
+    "impact": "Preserves SSD flash endurance (wear-leveling performance)",
+    "timeEstimate": "15–20 mins"
+  },
+  {
+    "id": "action-credential-migration",
+    "category": "digital-declutter",
+    "categoryLabel": "Digital Decluttering Activity",
+    "title": "Audit Passwords and Two-Factor Authentication Tokens",
+    "description": "Confirm all password manager vaults and authenticator apps (TOTP seeds) are synchronized with a secondary verified device before initiating hardware handoffs.",
+    "impact": "Prevents catastrophic lockouts during device transitions",
+    "timeEstimate": "15 mins"
+  },
+  {
+    "id": "action-battery-health-audit",
+    "category": "repair-commitment",
+    "categoryLabel": "Repair-Before-Replace",
+    "title": "Check Battery Wear Before Shopping for Upgrades",
+    "description": "Check the battery health percentage in your OS settings. If maximum capacity is above 80%, sluggish behavior is typically software-related, not dying hardware.",
+    "impact": "Counteracts planned obsolescence and marketing conditioning",
+    "timeEstimate": "5 mins"
+  },
+  {
+    "id": "action-clean-dust-vents",
+    "category": "repair-commitment",
+    "categoryLabel": "Repair-Before-Replace",
+    "title": "Blow Out Thermal Dust from Fans and Heat Pipes",
+    "description": "Use short bursts of compressed air to clear lint and dust carpets from intake vents. Keep fan blades steady to prevent over-spinning.",
+    "impact": "Lowers operating temperatures by 10°C–15°C and ends throttling",
+    "timeEstimate": "10 mins"
+  },
+  {
+    "id": "action-50-percent-rule",
+    "category": "repair-commitment",
+    "categoryLabel": "Repair-Before-Replace",
+    "title": "Price Independent Repairs Using the 50% Rule",
+    "description": "Before replacing a device with a broken screen or weak battery, get a quote from a local repair shop or community repair cafe. If repair is under 50% of replacement value, fix it.",
+    "impact": "Saves money and prevents unnecessary upstream manufacturing emissions",
+    "timeEstimate": "15 mins"
+  },
+  {
+    "id": "action-clean-charging-ports",
+    "category": "repair-commitment",
+    "categoryLabel": "Repair-Before-Replace",
+    "title": "Clear Compacted Lint from USB-C and Lightning Ports",
+    "description": "If your device won't charge or cables fall out, gently extract compacted pocket fuzz using a non-conductive wooden or plastic toothpick under good lighting.",
+    "impact": "Fixes 80% of 'broken port' issues with zero cost",
+    "timeEstimate": "5 mins"
+  },
+  {
+    "id": "action-sign-out-ecosystem",
+    "category": "donation-preparation",
+    "categoryLabel": "Donation & Recycling Prep",
+    "title": "Sign Out of Ecosystem Accounts and Disable Activation Locks",
+    "description": "Explicitly disable Apple Find My (Activation Lock), Google Account FRP (Factory Reset Protection), and Microsoft Account device locks before wiping.",
+    "impact": "Ensures donated hardware is usable by next owner rather than e-waste brick",
+    "timeEstimate": "10 mins"
+  },
+  {
+    "id": "action-crypto-wipe-reset",
+    "category": "donation-preparation",
+    "categoryLabel": "Donation & Recycling Prep",
+    "title": "Execute Hardware Factory Reset with Cryptographic Wipe",
+    "description": "Trigger the official operating system factory reset, opting to clean drives thoroughly. This destroys internal AES cryptographic storage keys permanently.",
+    "impact": "Zero chance of personal data recovery by future recipients",
+    "timeEstimate": "20–60 mins"
+  },
+  {
+    "id": "action-eject-sim-microsd",
+    "category": "donation-preparation",
+    "categoryLabel": "Donation & Recycling Prep",
+    "title": "Physically Eject SIM Trays and MicroSD Memory Cards",
+    "description": "Use an ejector tool or paperclip to open card slots. Physically remove cellular SIM cards and high-capacity flash memory cards before packaging.",
+    "impact": "Prevents accidental leakage of phone numbers and private photos",
+    "timeEstimate": "5 mins"
+  },
+  {
+    "id": "action-verify-certified-recycler",
+    "category": "donation-preparation",
+    "categoryLabel": "Donation & Recycling Prep",
+    "title": "Verify Recycler Holds R2v3 or e-Stewards Certification",
+    "description": "Check the official recycler directory to verify third-party certifications ensuring strict environmental standards and zero uncertified overseas scrap dumping.",
+    "impact": "Guarantees authentic closed-loop resource recovery",
+    "timeEstimate": "10 mins"
+  }
+]

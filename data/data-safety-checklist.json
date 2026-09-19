@@ -1,0 +1,154 @@
+{
+  "notice": "Menu paths vary by vendor (Apple, Google, Microsoft, Samsung). Use the search bar in your device Settings if a menu differs.",
+  "warningCloudSync": {
+    "title": "Two-Way Cloud Sync Hazard",
+    "summary": "Never manually drag files to Trash while signed into iCloud, Google Drive, or OneDrive.",
+    "detail": "Two-way sync mirrors local deletions across all connected devices. Sign out of accounts first or execute a Factory Data Reset to sanitize local hardware without touching cloud backups."
+  },
+  "checklistSteps": [
+    {
+      "id": "step-backup",
+      "stepNumber": 1,
+      "title": "Backing Up Important Files",
+      "category": "Preservation",
+      "summary": "Copy essential files and 2FA recovery codes to encrypted external media or cloud.",
+      "actionItems": [
+        "Copy documents and photos to an encrypted USB drive or cloud vault.",
+        "Verify backup integrity on a secondary machine before proceeding.",
+        "Export 2FA authenticator apps (Google / Microsoft Authenticator) to your primary phone.",
+        "Export browser bookmarks and password vault credentials."
+      ],
+      "osSpecificTips": {
+        "apple": "iOS: Settings > [Name] > iCloud Backup. Mac: Run Time Machine to external drive.",
+        "android": "Settings > Google > Backup: Confirm photos and contacts are synced.",
+        "windows": "Settings > Accounts > Windows Backup, or copy 'C:\\Users\\[User]' to external drive."
+      }
+    },
+    {
+      "id": "step-signout-accounts",
+      "stepNumber": 2,
+      "title": "Signing Out of Accounts",
+      "category": "Identity Unlinking",
+      "summary": "Deauthorize ecosystem accounts, store licenses, and messaging sessions.",
+      "actionItems": [
+        "Sign out of your primary Apple ID, Google Account, or Microsoft Account.",
+        "Deauthorize application licenses (Adobe CC, Microsoft 365, Steam).",
+        "Log out of web browsers and purge local synced autofill and passwords.",
+        "Sign out of messaging apps (WhatsApp, Telegram, Discord) and revoke active sessions."
+      ],
+      "osSpecificTips": {
+        "apple": "iOS: Settings > [Name] > Sign Out. Mac: System Settings > Apple ID > Sign Out.",
+        "android": "Settings > Passwords & Accounts: Tap each account and tap 'Remove Account'.",
+        "windows": "Settings > Accounts > Access work or school: Remove organizational logins."
+      }
+    },
+    {
+      "id": "step-remove-sim-memory",
+      "stepNumber": 3,
+      "title": "Removing SIM and Memory Cards",
+      "category": "Physical Hardware",
+      "summary": "Eject physical SIM trays, memory expansion cards, and erase eSIMs.",
+      "actionItems": [
+        "Use a SIM pin or paperclip to eject cellular card trays.",
+        "Remove physical Nano/Micro-SIM cards to prevent billing or identity leaks.",
+        "Remove MicroSD storage cards from trays or battery compartments.",
+        "Select 'Erase eSIM' during the factory reset prompt if using virtual SIMs."
+      ],
+      "osSpecificTips": {
+        "apple": "iPhone: Select 'Delete eSIM' when prompted during the reset sequence.",
+        "android": "Unmount adoptable MicroSD cards in Storage Settings before physical removal.",
+        "windows": "Check laptop side expansion slots for camera SD cards."
+      }
+    },
+    {
+      "id": "step-disable-locks",
+      "stepNumber": 4,
+      "title": "Disabling Device-Tracking Locks When Transferring Ownership",
+      "category": "Device Unlocking",
+      "summary": "Decouple anti-theft locks to prevent hardware bricking upon reset.",
+      "actionItems": [
+        "Turn off Apple Activation Lock ('Find My') before initiating reset.",
+        "Remove Google Account in Settings to prevent Factory Reset Protection (FRP) lockout.",
+        "Unenroll Chromebooks from enterprise or school Google Workspace domains.",
+        "Clear BIOS supervisor passwords and decrypt BitLocker drives."
+      ],
+      "osSpecificTips": {
+        "apple": "Verify at iCloud.com/find that the device is removed from your account.",
+        "android": "FRP bricks phones if reset via recovery buttons without prior account removal.",
+        "windows": "Run `manage-bde -status` in PowerShell to confirm BitLocker decryption."
+      }
+    },
+    {
+      "id": "step-factory-reset",
+      "stepNumber": 5,
+      "title": "Factory Resetting the Device",
+      "category": "Cryptographic Wipe",
+      "summary": "Execute built-in factory reset to incinerate master cryptographic keys.",
+      "actionItems": [
+        "Connect device to AC wall power to prevent shutdown during wipe sequence.",
+        "Select 'Erase All Content and Settings' or 'Fully clean the drive'.",
+        "Factory reset destroys master encryption keys, rendering NAND blocks unreadable.",
+        "For legacy mechanical hard drives (HDDs), perform multi-pass NIST 800-88 sanitization."
+      ],
+      "osSpecificTips": {
+        "apple": "iOS/macOS: Settings > General > Transfer or Reset > Erase All Content and Settings.",
+        "android": "Settings > System > Reset Options > Erase all data (factory reset).",
+        "windows": "Settings > System > Recovery > Reset this PC > Remove everything > Clean drive."
+      }
+    },
+    {
+      "id": "step-check-removable-storage",
+      "stepNumber": 6,
+      "title": "Checking Removable Storage & Peripherals",
+      "category": "Physical Inspection",
+      "summary": "Inspect USB ports, optical trays, and expansion bays for forgotten accessories.",
+      "actionItems": [
+        "Unplug 2.4GHz wireless mouse and keyboard nano USB receivers.",
+        "Eject optical disc drives (CD/DVD/Blu-ray) using the emergency pinhole latch.",
+        "Check camera card reader slots and external backup drives.",
+        "Ensure secondary internal storage drives on desktops are sanitized or pulled."
+      ],
+      "osSpecificTips": {
+        "apple": "Check rear Thunderbolt/USB ports on iMac, Mac mini, or Studio.",
+        "android": "Check USB-C port for magnetic breakaway charging dongles.",
+        "windows": "Confirm secondary internal SATA/NVMe storage drives are wiped."
+      }
+    },
+    {
+      "id": "step-separate-account-removal",
+      "stepNumber": 7,
+      "title": "Separating Account Removal from File Deletion",
+      "category": "Cloud Safety",
+      "summary": "Decouple cloud syncing before performing local storage sanitization.",
+      "actionItems": [
+        "Manual file trashing in synced folders deletes cloud backups everywhere.",
+        "Unlink OneDrive, Google Drive, or Dropbox apps before cleaning files.",
+        "Verify personal files exist on cloud web portals via another computer.",
+        "Trigger Factory Reset to wipe local sectors without issuing cloud deletion commands."
+      ],
+      "osSpecificTips": {
+        "apple": "When signing out of iCloud on Mac, choose NOT to keep local copies.",
+        "android": "Never bulk-delete photos in Google Photos; remove the Google Account instead.",
+        "windows": "Right-click OneDrive in taskbar > Settings > Account > 'Unlink this PC'."
+      }
+    },
+    {
+      "id": "step-confirm-next-owner",
+      "stepNumber": 8,
+      "title": "Confirming That the Next Owner Cannot Access Personal Information",
+      "category": "Verification",
+      "summary": "Verify the initial out-of-the-box setup screen with zero login prompts.",
+      "actionItems": [
+        "Reboot device after reset sequence finishes.",
+        "Confirm screen displays initial 'Hello' or 'Select Region' welcome screen.",
+        "Do NOT enter Wi-Fi credentials or configure a user profile.",
+        "Hold physical power button down to shut off cleanly for handover."
+      ],
+      "osSpecificTips": {
+        "apple": "Confirm screen displays multi-language 'Hello' without Apple ID prompts.",
+        "android": "Verify phone boots to 'Welcome' screen without requesting prior PIN.",
+        "windows": "Confirm boot to initial Windows out-of-box setup, then power down."
+      }
+    }
+  ]
+}

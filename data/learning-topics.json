@@ -1,0 +1,159 @@
+{
+  "topics": [
+    {
+      "id": "what-is-e-waste",
+      "title": "Understanding Electronic Waste",
+      "category": "environmental-impact",
+      "summary": "Electronic waste (e-waste) refers to any discarded item containing electrical circuitry, battery chemistry, or semiconductor chips that has reached the end of its current ownership.",
+      "keyPoints": [
+        "E-waste encompasses everything from flagship smartphones and workstations to power supply adapters, display monitors, and battery-powered toys.",
+        "Electronics represent one of the fastest-growing solid waste streams in modern municipal infrastructure.",
+        "Unlike organic or simple packaging waste, electronic items contain hundreds of intricately bonded chemical compounds, plastics, and metals that cannot be safely processed in conventional landfills."
+      ],
+      "recommendedActions": [
+        "Treat electronic hardware as a specialized resource stream rather than general trash.",
+        "Audit drawers and storage closets before buying replacement gadgets.",
+        "Maintain original packaging and cables to preserve resale, donation, or reuse value."
+      ]
+    },
+    {
+      "id": "common-e-waste-types",
+      "title": "Common Types of Electronic Waste",
+      "category": "materials-and-minerals",
+      "summary": "Electronic waste spans diverse hardware categories, each with distinct recycling complexities and reusable components.",
+      "keyPoints": [
+        "Personal Telecommunications: Smartphones, tablets, e-readers, and cellular modems.",
+        "Computing Infrastructure: Desktop towers, laptops, server chassis, monitors, and external drives.",
+        "Peripherals & Accessories: Keyboards, mice, webcams, headphones, power bricks, and USB cables.",
+        "Power & Batteries: Loose lithium-ion cells, lead-acid uninterruptible power supplies (UPS), and nickel-metal hydride battery packs."
+      ],
+      "recommendedActions": [
+        "Segregate equipment types: store loose batteries separately from metal cables and computer towers.",
+        "Retain and label functional power adapters to prevent orphaned peripherals.",
+        "Group intact cables together with reusable ties for scrap copper recovery."
+      ]
+    },
+    {
+      "id": "never-ordinary-garbage",
+      "title": "Why Electronics Must Never Enter Ordinary Garbage",
+      "category": "environmental-impact",
+      "summary": "Discarding electronics into standard curbside garbage bins creates acute physical danger for sanitation workers and permanently contaminates local ecosystems.",
+      "keyPoints": [
+        "Municipal garbage trucks utilize hydraulic compactors that crush bags with immense force. When lithium-ion batteries are crushed, they undergo violent thermal runaway and ignite truck fires.",
+        "Standard municipal landfill liners are designed for municipal solid waste, not corrosive battery acid or toxic heavy metal leachate.",
+        "Rainwater percolates through unsealed landfills, creating toxic runoff that can infiltrate agricultural aquifers and municipal drinking water."
+      ],
+      "recommendedActions": [
+        "Never place anything with a plug, cord, or battery into curbside trash or blue recycling bins.",
+        "Drop rechargeable batteries exclusively into dedicated battery collection kiosks.",
+        "Deliver non-working electronics directly to certified community collection events."
+      ]
+    },
+    {
+      "id": "toxicological-concerns",
+      "title": "Environmental & Toxicological Hazards",
+      "category": "environmental-impact",
+      "summary": "Electronics are safe during active desktop use, but become biological hazards when incinerated or left to weather in the elements.",
+      "keyPoints": [
+        "Lead: Common in legacy solder and cathode ray tube display funnel glass; damages neurological systems.",
+        "Mercury: Used in older cold-cathode fluorescent lamp (CCFL) display backlights; potent neurotoxin when vaporized.",
+        "Cadmium: Present in older rechargeable cells and semiconductor coatings; toxic to kidneys and bone structure.",
+        "Brominated Flame Retardants: Added to circuit boards and casing plastics; release carcinogenic dioxins during open burning."
+      ],
+      "recommendedActions": [
+        "Keep display glass and component enclosures intact to prevent hazardous exposure.",
+        "Avoid backyard burning or amateur acid stripping of circuit boards.",
+        "Demand certified e-waste processors that adhere to strict zero-landfill, zero-export standards."
+      ]
+    },
+    {
+      "id": "unnecessary-upgrades",
+      "title": "The True Cost of Unnecessary Upgrades",
+      "category": "device-longevity",
+      "summary": "Marketing campaigns convince consumers that hardware is obsolete when minor cosmetic updates arrive. The true cost is paid in upstream environmental destruction.",
+      "keyPoints": [
+        "The overwhelming majority of a digital device's lifetime greenhouse gas emissions occur before you ever turn it on—during silicon smelting and chip fabrication.",
+        "Mining critical minerals such as cobalt, lithium, and rare earth elements displaces native ecosystems and consumes immense electrical power.",
+        "Most incremental upgrades offer marginal daily computing improvements for word processing, web browsing, and video streaming."
+      ],
+      "recommendedActions": [
+        "Evaluate upgrades based on actual personal workflow bottlenecks rather than marketing hype.",
+        "Replace exhausted batteries to restore full portable battery life for a fraction of new device costs.",
+        "Celebrate device longevity as a mark of thoughtful tech stewardship."
+      ]
+    },
+    {
+      "id": "urban-mining-hidden-value",
+      "title": "Urban Mining: The Hidden Value in Old Tech",
+      "category": "circular-economy",
+      "summary": "Old hardware is not junk; it is an ultra-concentrated mineral repository containing valuable metals and functional modular parts.",
+      "keyPoints": [
+        "Printed circuit boards contain gold, silver, copper, and palladium at densities substantially richer than raw geological mining ore.",
+        "Reclaiming metals from existing electronics requires far less energy than extracting virgin minerals from open-pit earth mines.",
+        "Working components—such as memory modules, solid state drives, cooling fans, and camera modules—can be harvested to repair other machines."
+      ],
+      "recommendedActions": [
+        "Harvest salvageable RAM and storage drives before recycling retired computer towers.",
+        "Return exhausted hardware to closed-loop refiners capable of precious metal extraction.",
+        "Support right to repair legislation that requires manufacturers to sell spare components."
+      ]
+    }
+  ],
+  "misconceptions": [
+    {
+      "myth": "Deleting files or formatting the drive makes a device safe to throw away or donate.",
+      "reality": "Standard formatting only clears file index headers. The actual data remains intact on storage sectors.",
+      "explanation": "Anyone using basic, freely available recovery tools can reconstruct personal photos, browser sessions, and tax documents from a formatted drive. You must use built-in cryptographic factory resets or verified NIST SP 800-88 disk sanitization software."
+    },
+    {
+      "myth": "Electronics decompose in municipal landfills just like any other manufactured product.",
+      "reality": "Circuit boards, silicon chips, and plastics resist natural decomposition for centuries.",
+      "explanation": "Heavy metals such as lead and cadmium never decompose. Over decades, weathering breaks plastics down into hazardous microplastics while heavy metals leach permanently into surrounding soil and water tables."
+    },
+    {
+      "myth": "Curbside blue recycling bins accept electronics, power cords, and batteries.",
+      "reality": "Electronics placed in curbside recycling cause sorting machine breakdowns and catastrophic facility fires.",
+      "explanation": "Cables wrap around mechanical conveyor belts, shutting down recycling plants for hours. Lithium batteries crushed inside recycling collection trucks ignite fierce chemical fires that cannot be extinguished with water."
+    },
+    {
+      "myth": "An older laptop that runs sluggishly has reached the end of its life and cannot be saved.",
+      "reality": "Sluggishness is almost always caused by storage bloat, startup software, or an aging mechanical hard drive.",
+      "explanation": "Swapping an old mechanical hard drive for an inexpensive modern Solid State Drive (SSD) and reinstalling a clean operating system makes an eight-year-old computer feel brand new for everyday browsing, homework, and office tasks."
+    },
+    {
+      "myth": "All electronics recycling programs dispose of hardware safely and locally.",
+      "reality": "Uncertified e-waste handlers often export toxic waste to informal scrap operations abroad.",
+      "explanation": "Unless a recycler holds verified third-party accreditation (such as R2v3 or e-Stewards), discarded devices are frequently shipped overseas where workers burn wire insulation in open pits to extract copper. Always verify certified recycler credentials."
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-telecom",
+      "name": "Mobile & Telecom Devices",
+      "examples": ["Smartphones", "Feature phones", "Tablets", "Cellular modems"],
+      "typicalHazardousElements": ["Lithium-ion electrolyte", "Cobalt oxide", "Indium tin oxide"],
+      "recoveryPotential": "High recovery of gold, silver, copper, and reusable camera/display modules."
+    },
+    {
+      "id": "cat-computing",
+      "name": "Personal Computing & Displays",
+      "examples": ["Laptops", "Desktop towers", "Monitors", "Servers"],
+      "typicalHazardousElements": ["Lead solder", "Mercury (legacy backlights)", "Cadmium"],
+      "recoveryPotential": "High modularity: swappable RAM, modular SSDs, copper heat sinks, and aluminum enclosures."
+    },
+    {
+      "id": "cat-peripherals",
+      "name": "Peripherals & Accessories",
+      "examples": ["Keyboards", "Mice", "Power bricks", "USB cables", "Audio gear"],
+      "typicalHazardousElements": ["PVC plasticizers", "Flame retardant plastics", "Copper wire"],
+      "recoveryPotential": "Pure copper conductor recovery from cabling; salvageable switches and connectors."
+    },
+    {
+      "id": "cat-power",
+      "name": "Batteries & Power Supplies",
+      "examples": ["Laptop battery packs", "UPS backup batteries", "Loose power banks"],
+      "typicalHazardousElements": ["Lithium cobalt oxide", "Sulfuric acid (lead-acid)", "Nickel"],
+      "recoveryPotential": "Critical closed-loop recycling for lithium, cobalt, and lead."
+    }
+  ]
+}

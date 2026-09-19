@@ -1,0 +1,153 @@
+{
+  "recommendedActions": [
+    {
+      "id": "seek-professional-battery-handling",
+      "title": "Seek Professional Handling Because of a Damaged Battery",
+      "badge": "CRITICAL HAZARD",
+      "variant": "warning",
+      "summary": "Your device's battery shows physical swelling, leaking, excessive heat, or internal puncture. This is a severe fire hazard requiring urgent specialized handling.",
+      "whySelected": "Lithium-ion batteries under mechanical pressure or chemical degradation can enter uncontrollable thermal runaway, releasing toxic gas and catching fire without warning. The device must not be plugged in, mailed, or discarded in regular bins.",
+      "nextSteps": [
+        "Immediately disconnect the device from any wall charger or power source and power it down if safe to do so.",
+        "Do not squeeze, compress, or attempt to puncture the swollen battery pack.",
+        "Store the device inside a fire-resistant container (such as a metal box or bucket filled with sand or kitty litter) in a cool, ventilated area away from combustible carpets and drapes.",
+        "Locate a municipal household hazardous waste (HHW) drop-off facility or certified electronics repair depot that explicitly accepts damaged/defective batteries.",
+        "Never ship a swollen battery through postal mail or commercial couriers; ground transport in fire-safe packaging is required by transport safety regulations."
+      ],
+      "disclaimer": "This recommendation is for general informational awareness and does not constitute professional engineering or hazardous materials safety advice. If the battery is actively smoking, hissing, or burning, evacuate the area and contact emergency services immediately."
+    },
+    {
+      "id": "continue-using-it",
+      "title": "Continue Using It",
+      "badge": "MAXIMUM LONGEVITY",
+      "variant": "highlight",
+      "summary": "Your hardware is operational, physically sound, and actively supported with modern security updates. Continuing to use it is the single most environmentally friendly choice.",
+      "whySelected": "Because your device still fulfills your computing needs and receives software protection, replacing it now would generate unnecessary upstream manufacturing emissions and squander perfectly capable silicon.",
+      "nextSteps": [
+        "Enable built-in battery optimization to cap daily charging at 80% to 85% to preserve battery longevity.",
+        "Clean out dust from cooling fan vents and ports using compressed air to maintain optimal temperatures.",
+        "Audit storage and startup applications once every few months to keep daily performance snappy.",
+        "Resist marketing pressure for annual minor camera or cosmetic upgrades."
+      ],
+      "disclaimer": "This recommendation is based on self-reported device condition and does not guarantee future hardware reliability."
+    },
+    {
+      "id": "repair-it",
+      "title": "Repair It",
+      "badge": "FIX FIRST",
+      "variant": "highlight",
+      "summary": "Your device has a specific fixable flaw (such as a worn battery, broken screen, or slow storage), but its core processor and logic boards remain healthy.",
+      "whySelected": "Repairing individual components costs significantly less than buying a brand-new machine, spares hundreds of pounds of upstream manufacturing emissions, and extends your machine's active service by another 2 to 4 years.",
+      "nextSteps": [
+        "Identify the primary bottleneck: a battery swap restores all-day portability, while replacing a mechanical hard drive with an SSD restores instant responsiveness.",
+        "Obtain repair estimates from reputable independent repair technicians or community repair cafes.",
+        "Check community teardown and repair manuals (such as iFixit) to assess if you can perform the swap yourself with basic tools.",
+        "Back up all personal files to external storage or cloud before delivering the device for servicing."
+      ],
+      "disclaimer": "Repair estimates and part availability vary by model and manufacturer. Always verify quotes before authorizing repairs."
+    },
+    {
+      "id": "reuse-it-for-another-purpose",
+      "title": "Reuse It For Another Purpose",
+      "badge": "CREATIVE REPURPOSE",
+      "variant": "tech",
+      "summary": "Your device works, but no longer receives operating system upgrades or fits your primary high-performance workflow. Repurpose it for dedicated secondary tasks.",
+      "whySelected": "Even without modern vendor support, the screen, camera, processor, and audio hardware excel at stationary, offline, or dedicated utility functions in your home, classroom, or office.",
+      "nextSteps": [
+        "Turn an older smartphone into a dedicated 1080p desktop webcam (using Camo or DroidCam) that outperforms built-in laptop cameras.",
+        "Mount an older tablet on a kitchen stand as a dedicated recipe dashboard, digital clock, or family chore calendar.",
+        "Convert an older laptop or desktop into a distraction-free writing terminal, home media server (Jellyfin), or network backup vault.",
+        "Install a lightweight, secure Linux distribution (like Lubuntu or Mint) to restore modern browser speeds on older PCs."
+      ],
+      "disclaimer": "Devices with discontinued security updates should not be used for online banking, sensitive corporate communication, or storing unencrypted credentials."
+    },
+    {
+      "id": "donate-or-give-it-away",
+      "title": "Donate or Give It Away",
+      "badge": "COMMUNITY IMPACT",
+      "variant": "highlight",
+      "summary": "Your device is fully functional, capable, and meets current standards, but you have upgraded or no longer need it. Pass it to a learner, school, or non-profit.",
+      "whySelected": "Millions of students and community learners lack reliable laptops and tablets for homework and job applications. Donating working hardware bridges the digital divide and keeps useful machines in circulation.",
+      "nextSteps": [
+        "Back up all personal files, photos, and browser bookmarks to an external drive or cloud storage.",
+        "Crucial: Sign out of your Apple ID (iCloud), Google Account, or Microsoft Account and turn off device-tracking locks ('Find My' / FRP).",
+        "Perform a complete factory reset with full disk wipe to destroy internal encryption keys.",
+        "Bundle the original charging brick and power cables together with the device.",
+        "Contact local schools, community libraries, non-profit learning centers, or computer refurbishing charities to arrange drop-off."
+      ],
+      "disclaimer": "Always verify that the receiving organization accepts your device model and confirm that your account locks are deactivated."
+    },
+    {
+      "id": "recycle-it-through-an-appropriate-facility",
+      "title": "Recycle It Through An Appropriate Facility",
+      "badge": "CERTIFIED RECYCLING",
+      "variant": "warning",
+      "summary": "Your hardware has suffered catastrophic unrepairable damage, severe water corrosion, or a repair quote that exceeds its total replacement value. Route it to verified certified recycling.",
+      "whySelected": "When hardware reaches true end-of-life, specialized recyclers can shred circuit boards in closed loops to reclaim precious gold, silver, copper, and cobalt while safely sequestering toxic lead and flame retardants.",
+      "nextSteps": [
+        "Physically remove or cryptographically sanitize any internal storage drives (HDDs/SSDs) if the device can still turn on.",
+        "Harvest any easily accessible modular components (like memory RAM modules, cooling fans, or cables) if you build or service PCs.",
+        "Locate an electronics recycler that holds certified third-party credentials: look specifically for R2v3 or e-Stewards certification.",
+        "Ask the recycler if they guarantee zero-landfill disposal and zero uncertified overseas electronic scrap export.",
+        "Never place the device into municipal curbside garbage or blue recycling bins."
+      ],
+      "disclaimer": "Do not deliver hardware with visibly damaged, hot, or leaking batteries to standard unmonitored drop-off bins. Specialized hazardous handling is required for damaged battery cells."
+    }
+  ],
+  "deviceTypes": [
+    { "value": "smartphone", "label": "Smartphone (iPhone, Android)" },
+    { "value": "laptop", "label": "Laptop (MacBook, Windows PC, Chromebook)" },
+    { "value": "tablet", "label": "Tablet (iPad, Android Tablet, e-Reader)" },
+    { "value": "desktop", "label": "Desktop Tower or All-in-One PC" },
+    { "value": "peripheral", "label": "Peripheral (Keyboard, Mouse, Monitor, Webcam)" },
+    { "value": "cable_power", "label": "Cable, Charger or Power Supply" }
+  ],
+  "decisionPaths": [
+    {
+      "id": "sample-repair",
+      "deviceType": "smartphone",
+      "conditionCriteria": {
+        "working": true,
+        "batteryHealthPoor": true,
+        "screenDamaged": true,
+        "softwareSupported": true,
+        "userNeedsMet": false
+      },
+      "recommendedAction": "Repair",
+      "actionSummary": "A cracked glass or degraded battery is fixable for a fraction of new phone cost, restoring 2+ years of life.",
+      "suggestedNextSteps": ["Check third-party repair quote", "Back up device before drop-off"],
+      "prerequisites": ["Screen responds to touch", "Core logic board boots"]
+    },
+    {
+      "id": "sample-reuse",
+      "deviceType": "laptop",
+      "conditionCriteria": {
+        "working": true,
+        "batteryHealthPoor": false,
+        "screenDamaged": false,
+        "softwareSupported": false,
+        "userNeedsMet": false
+      },
+      "recommendedAction": "Reuse",
+      "actionSummary": "Discontinued OS updates? Repurpose this machine as a home file server, lightweight Linux desktop, or dedicated media hub.",
+      "suggestedNextSteps": ["Install lightweight Linux OS", "Keep for stationary offline utilities"],
+      "prerequisites": ["Power adapter operational", "Display panel intact"]
+    },
+    {
+      "id": "sample-donate",
+      "deviceType": "tablet",
+      "conditionCriteria": {
+        "working": true,
+        "batteryHealthPoor": false,
+        "screenDamaged": false,
+        "softwareSupported": true,
+        "userNeedsMet": true
+      },
+      "recommendedAction": "Donate",
+      "actionSummary": "Hardware is in great condition but surplus to your needs. Wipe personal data and donate to an underserved student or community lab.",
+      "suggestedNextSteps": ["Turn off Find My / FRP account locks", "Perform factory cryptographic reset", "Pack with original charger"],
+      "prerequisites": ["No iCloud or Google FRP lock", "Battery holds normal charge"]
+    }
+  ]
+}
+
