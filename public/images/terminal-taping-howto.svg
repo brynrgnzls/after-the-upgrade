@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1115"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2d333b" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#bgGrad)"/>
+  <rect width="800" height="480" fill="url(#dotGrid)"/>
+  <rect x="1" y="1" width="798" height="478" fill="none" stroke="#2d333b" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(30, 36)">
+    <rect x="0" y="0" width="8" height="24" fill="#00ff66"/>
+    <text x="18" y="18" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="1.5">PROTOCOL // DROP-OFF TERMINAL INSULATION</text>
+    <text x="18" y="38" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="12">Pre-transport safety protocol to eliminate short-circuit arcing and collection bin fires</text>
+  </g>
+
+  <!-- Safety Warning Banner -->
+  <g transform="translate(30, 90)">
+    <rect x="0" y="0" width="740" height="40" rx="4" fill="#ff4444" fill-opacity="0.1" stroke="#ff4444" stroke-width="1"/>
+    <polygon points="18,12 28,30 8,30" fill="#ff4444"/>
+    <text x="18" y="27" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">!</text>
+    <text x="38" y="25" fill="#ff4444" font-family="monospace" font-size="12" font-weight="bold">MANDATORY RULE:</text>
+    <text x="160" y="25" fill="#e6edf3" font-family="system-ui, -apple-system, sans-serif" font-size="12">Loose battery contacts touching in transit create high-amp short circuits. Always tape terminals.</text>
+  </g>
+
+  <!-- Cell 1: 9V / High Arcing Potential -->
+  <g transform="translate(30, 150)">
+    <rect x="0" y="0" width="230" height="295" rx="6" fill="#12161c" stroke="#30363d" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#00ccff" font-family="monospace" font-size="12" font-weight="bold">TYPE 01 // 9V BLOCKS</text>
+    <text x="16" y="46" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Adjacent contact snaps</text>
+
+    <!-- 9V Battery graphic -->
+    <g transform="translate(65, 65)">
+      <!-- Battery Body -->
+      <rect x="10" y="40" width="80" height="110" rx="4" fill="#1f242c" stroke="#484f58" stroke-width="1.5"/>
+      <rect x="18" y="55" width="64" height="40" fill="#0e1115" rx="2"/>
+      <text x="50" y="80" fill="#8b949e" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">9 VOLT</text>
+      <!-- Terminal Snaps -->
+      <circle cx="32" cy="32" r="8" fill="#e6edf3" stroke="#8b949e" stroke-width="1"/>
+      <polygon points="68,26 76,32 76,40 68,46 60,40 60,32" fill="#e6edf3" stroke="#8b949e" stroke-width="1"/>
+      
+      <!-- Electrical Tape Band -->
+      <path d="M 0,22 L 100,22 L 100,46 L 0,46 Z" fill="#ffd700" fill-opacity="0.85" stroke="#d4af37" stroke-width="1.5"/>
+      <text x="50" y="38" fill="#000000" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">INSULATING TAPE</text>
+      <!-- Fold indicators -->
+      <path d="M 0,46 L -6,62 L 10,62 L 10,46 Z" fill="#b39700"/>
+      <path d="M 100,46 L 106,62 L 90,62 L 90,46 Z" fill="#b39700"/>
+    </g>
+
+    <!-- Instruction list -->
+    <g transform="translate(16, 235)">
+      <circle cx="6" cy="6" r="4" fill="#00ff66"/>
+      <text x="18" y="10" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Cover both terminal snaps</text>
+      <circle cx="6" cy="26" r="4" fill="#00ff66"/>
+      <text x="18" y="30" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Wrap tape around shoulders</text>
+      <circle cx="6" cy="46" r="4" fill="#00ff66"/>
+      <text x="18" y="50" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Use electrical or duct tape</text>
+    </g>
+  </g>
+
+  <!-- Cell 2: Li-ion Pouches / Smartphone -->
+  <g transform="translate(285, 150)">
+    <rect x="0" y="0" width="230" height="295" rx="6" fill="#12161c" stroke="#30363d" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#00ccff" font-family="monospace" font-size="12" font-weight="bold">TYPE 02 // LI-ION POUCH</text>
+    <text x="16" y="46" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Flex ribbon &amp; gold pads</text>
+
+    <!-- Smartphone Pouch graphic -->
+    <g transform="translate(65, 65)">
+      <!-- Silver Pouch -->
+      <rect x="5" y="45" width="90" height="110" rx="3" fill="#2d333b" stroke="#6e7681" stroke-width="1.5"/>
+      <line x1="5" y1="52" x2="95" y2="52" stroke="#484f58" stroke-dasharray="2 2"/>
+      <line x1="5" y1="148" x2="95" y2="148" stroke="#484f58" stroke-dasharray="2 2"/>
+      <text x="50" y="105" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="middle">Li-ion Polymer 3.85V</text>
+      
+      <!-- Flex Ribbon -->
+      <rect x="40" y="18" width="20" height="27" fill="#b08800" stroke="#ffd700" stroke-width="1"/>
+      <rect x="37" y="10" width="26" height="12" rx="2" fill="#1f242c" stroke="#ffd700" stroke-width="1"/>
+      
+      <!-- Folded Tape Protection -->
+      <rect x="25" y="4" width="50" height="28" rx="2" fill="#ffd700" fill-opacity="0.85" stroke="#d4af37" stroke-width="1.5"/>
+      <text x="50" y="21" fill="#000000" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">TAPE CONNECTOR</text>
+    </g>
+
+    <!-- Instruction list -->
+    <g transform="translate(16, 235)">
+      <circle cx="6" cy="6" r="4" fill="#00ff66"/>
+      <text x="18" y="10" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Isolate exposed connector</text>
+      <circle cx="6" cy="26" r="4" fill="#00ff66"/>
+      <text x="18" y="30" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Do NOT bend flex ribbon</text>
+      <circle cx="6" cy="46" r="4" fill="#00ff66"/>
+      <text x="18" y="50" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Bag separately if damaged</text>
+    </g>
+  </g>
+
+  <!-- Cell 3: Cylindrical Li-ion / AA / 18650 -->
+  <g transform="translate(540, 150)">
+    <rect x="0" y="0" width="230" height="295" rx="6" fill="#12161c" stroke="#30363d" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#00ccff" font-family="monospace" font-size="12" font-weight="bold">TYPE 03 // CYLINDRICAL</text>
+    <text x="16" y="46" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">18650, 21700, Button, AA</text>
+
+    <!-- 18650 graphic -->
+    <g transform="translate(85, 65)">
+      <!-- Cylinder Body -->
+      <rect x="10" y="25" width="40" height="120" rx="8" fill="#1f242c" stroke="#484f58" stroke-width="1.5"/>
+      <rect x="18" y="14" width="24" height="11" rx="2" fill="#8b949e"/>
+      <text x="30" y="85" fill="#8b949e" font-family="monospace" font-size="10" transform="rotate(-90 30 85)" text-anchor="middle">18650 3.7V</text>
+
+      <!-- Tape at Top -->
+      <rect x="8" y="10" width="44" height="24" rx="2" fill="#ffd700" fill-opacity="0.85" stroke="#d4af37" stroke-width="1.5"/>
+      <text x="30" y="24" fill="#000000" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">(+) CAP</text>
+
+      <!-- Tape at Bottom -->
+      <rect x="8" y="130" width="44" height="20" rx="2" fill="#ffd700" fill-opacity="0.85" stroke="#d4af37" stroke-width="1.5"/>
+      <text x="30" y="144" fill="#000000" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">(-) BASE</text>
+    </g>
+
+    <!-- Instruction list -->
+    <g transform="translate(16, 235)">
+      <circle cx="6" cy="6" r="4" fill="#00ff66"/>
+      <text x="18" y="10" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Cap positive &amp; negative ends</text>
+      <circle cx="6" cy="26" r="4" fill="#00ff66"/>
+      <text x="18" y="30" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Never tape loose in a bundle</text>
+      <circle cx="6" cy="46" r="4" fill="#00ff66"/>
+      <text x="18" y="50" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11">Tape individually per cell</text>
+    </g>
+  </g>
+</svg>

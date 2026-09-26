@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cryptoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f131c" />
+      <stop offset="100%" stop-color="#151b26" />
+    </linearGradient>
+    <pattern id="cryptoGrid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#21283a" stroke-width="0.75" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="460" fill="url(#cryptoBg)" rx="10" />
+  <rect width="900" height="460" fill="url(#cryptoGrid)" rx="10" opacity="0.4" />
+  <rect width="900" height="460" fill="none" stroke="#2a334a" stroke-width="1.5" rx="10" />
+
+  <!-- Header -->
+  <text x="50" y="45" fill="#00ccff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="2">DATA SANITIZATION ARCHITECTURE</text>
+  <text x="50" y="75" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="800">Trash Can Deletion vs. Cryptographic Wipe</text>
+
+  <!-- Pathway A: Standard Deletion (Unsafe) -->
+  <g transform="translate(50, 110)">
+    <rect width="800" height="150" fill="#181922" stroke="#ff4444" stroke-width="1" rx="8" />
+    
+    <rect x="20" y="16" width="180" height="24" fill="rgba(255, 68, 68, 0.12)" stroke="#ff4444" stroke-width="0.8" rx="3" />
+    <text x="28" y="32" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">METHOD A: OS TRASH / FORMAT</text>
+
+    <!-- Diagram flow -->
+    <g transform="translate(30, 60)">
+      <!-- Step 1: User action -->
+      <rect x="0" y="0" width="160" height="65" fill="#202430" stroke="#373e52" stroke-width="1" rx="4" />
+      <text x="12" y="24" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">1. Drag to Trash</text>
+      <text x="12" y="44" fill="#8c9bb0" font-family="'JetBrains Mono', monospace" font-size="10">Index Pointer Removed</text>
+
+      <!-- Arrow -->
+      <text x="180" y="38" fill="#ff4444" font-family="sans-serif" font-size="18">→</text>
+
+      <!-- Step 2: Storage Status -->
+      <rect x="210" y="0" width="220" height="65" fill="#251f22" stroke="#ff4444" stroke-width="1" rx="4" />
+      <text x="222" y="24" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">2. Flash NAND Sectors</text>
+      <text x="222" y="44" fill="#d1d8e0" font-family="'JetBrains Mono', monospace" font-size="10">Raw Data Remains Intact!</text>
+
+      <!-- Arrow -->
+      <text x="450" y="38" fill="#ff4444" font-family="sans-serif" font-size="18">→</text>
+
+      <!-- Step 3: Risk Outcome -->
+      <rect x="480" y="0" width="260" height="65" fill="#2c1a1e" stroke="#ff4444" stroke-width="1.5" rx="4" />
+      <text x="492" y="24" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">⚠️ VULNERABLE TO RECOVERY</text>
+      <text x="492" y="44" fill="#8c9bb0" font-family="sans-serif" font-size="11">Free forensic tools easily rebuild photos &amp; files.</text>
+    </g>
+  </g>
+
+  <!-- Pathway B: Cryptographic Factory Reset (NIST SP 800-88) -->
+  <g transform="translate(50, 280)">
+    <rect width="800" height="150" fill="#141c1e" stroke="#00ff66" stroke-width="1.5" rx="8" />
+    
+    <rect x="20" y="16" width="230" height="24" fill="rgba(0, 255, 102, 0.12)" stroke="#00ff66" stroke-width="0.8" rx="3" />
+    <text x="28" y="32" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">METHOD B: CRYPTOGRAPHIC RESET (SAFE)</text>
+
+    <!-- Diagram flow -->
+    <g transform="translate(30, 60)">
+      <!-- Step 1: User action -->
+      <rect x="0" y="0" width="160" height="65" fill="#182522" stroke="#254238" stroke-width="1" rx="4" />
+      <text x="12" y="24" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">1. Factory Reset</text>
+      <text x="12" y="44" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10">Erase All Content &amp; Settings</text>
+
+      <!-- Arrow -->
+      <text x="180" y="38" fill="#00ff66" font-family="sans-serif" font-size="18">→</text>
+
+      <!-- Step 2: Enclave Zeroization -->
+      <rect x="210" y="0" width="220" height="65" fill="#162e24" stroke="#00ff66" stroke-width="1" rx="4" />
+      <text x="222" y="24" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">2. Secure Enclave / TPM</text>
+      <text x="222" y="44" fill="#00ccff" font-family="'JetBrains Mono', monospace" font-size="10">Hardware AES Keys Shredded</text>
+
+      <!-- Arrow -->
+      <text x="450" y="38" fill="#00ff66" font-family="sans-serif" font-size="18">→</text>
+
+      <!-- Step 3: Secure Result -->
+      <rect x="480" y="0" width="260" height="65" fill="#133324" stroke="#00ff66" stroke-width="1.5" rx="4" />
+      <text x="492" y="24" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">✓ MATHEMATICALLY UNRECOVERABLE</text>
+      <text x="492" y="44" fill="#d1d8e0" font-family="sans-serif" font-size="11">Stored bits turn into undecipherable noise.</text>
+    </g>
+  </g>
+</svg>
