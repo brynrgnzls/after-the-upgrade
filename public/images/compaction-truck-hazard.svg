@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="truckBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1115"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <pattern id="hazardStripes" width="20" height="20" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#ff4444" stroke-width="6" opacity="0.15"/>
+    </pattern>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff1100"/>
+      <stop offset="50%" stop-color="#ff7700"/>
+      <stop offset="100%" stop-color="#ffff33"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="440" fill="url(#truckBg)"/>
+  <rect width="800" height="440" fill="url(#hazardStripes)"/>
+  <rect x="1" y="1" width="798" height="438" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Title & Banner -->
+  <g transform="translate(30, 32)">
+    <rect x="0" y="0" width="8" height="24" fill="#ff4444"/>
+    <text x="18" y="18" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="1.5">MUNICIPAL HAZARD // HYDRAULIC COMPACTION &amp; THERMAL RUNAWAY</text>
+    <text x="18" y="38" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="12">Why lithium batteries in curbside trash spark over 5,000 waste truck &amp; facility fires annually</text>
+  </g>
+
+  <!-- Phase 1: Curbside disposal -->
+  <g transform="translate(30, 85)">
+    <rect x="0" y="0" width="230" height="320" rx="6" fill="#12161c" stroke="#30363d" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#8b949e" font-family="monospace" font-size="11" font-weight="bold">PHASE 01</text>
+    <text x="16" y="44" fill="#ff4444" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Curbside Wheelie Bin</text>
+    <text x="16" y="62" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Device concealed in mixed waste</text>
+
+    <!-- Graphic: Wheelie Bin with Battery inside -->
+    <g transform="translate(45, 80)">
+      <!-- Trash Bin Body -->
+      <path d="M 20,40 L 30,150 L 110,150 L 120,40 Z" fill="#1f242c" stroke="#484f58" stroke-width="1.5"/>
+      <rect x="12" y="32" width="116" height="10" rx="2" fill="#2d333b" stroke="#6e7681" stroke-width="1"/>
+      <!-- Wheels -->
+      <circle cx="28" cy="154" r="10" fill="#0e1115" stroke="#484f58" stroke-width="1.5"/>
+      <circle cx="112" cy="154" r="10" fill="#0e1115" stroke="#484f58" stroke-width="1.5"/>
+      
+      <!-- Mixed Trash Silhouettes -->
+      <path d="M 35,140 Q 60,110 80,135 Q 100,120 105,145 Z" fill="#2d333b"/>
+      
+      <!-- Concealed Phone / Battery -->
+      <rect x="52" y="90" width="36" height="48" rx="3" fill="#ff4444" stroke="#ffffff" stroke-width="1.5"/>
+      <text x="70" y="118" fill="#ffffff" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">LI-ION</text>
+      
+      <!-- Warning Cross -->
+      <circle cx="70" cy="50" r="14" fill="#ff4444" fill-opacity="0.2" stroke="#ff4444" stroke-width="1.5"/>
+      <line x1="62" y1="42" x2="78" y2="58" stroke="#ff4444" stroke-width="2"/>
+      <line x1="78" y1="42" x2="62" y2="58" stroke="#ff4444" stroke-width="2"/>
+    </g>
+
+    <text x="16" y="275" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Hazard Trigger:</text>
+    <text x="16" y="295" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Driver/operator cannot see the battery inside black waste bags.</text>
+  </g>
+
+  <!-- Phase 2: Truck Compactor Blade Rupture -->
+  <g transform="translate(285, 85)">
+    <rect x="0" y="0" width="230" height="320" rx="6" fill="#12161c" stroke="#ff4444" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#ff9900" font-family="monospace" font-size="11" font-weight="bold">PHASE 02 // 2,500+ PSI</text>
+    <text x="16" y="44" fill="#ff4444" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Hydraulic Ram Crush</text>
+    <text x="16" y="62" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Mechanical separator puncture</text>
+
+    <!-- Graphic: Compactor Blade crushing battery -->
+    <g transform="translate(30, 80)">
+      <!-- Compactor Blade (Steel ram descending) -->
+      <path d="M 10,10 L 160,10 L 160,45 L 85,75 L 10,45 Z" fill="#30363d" stroke="#8b949e" stroke-width="2"/>
+      <!-- Force Arrows -->
+      <line x1="85" y1="15" x2="85" y2="55" stroke="#ff4444" stroke-width="3"/>
+      <polygon points="85,62 80,52 90,52" fill="#ff4444"/>
+      
+      <!-- Crushed Pouch Battery -->
+      <path d="M 35,110 Q 85,90 135,110 Q 140,140 130,150 Q 85,130 40,150 Z" fill="#22272e" stroke="#ff4444" stroke-width="2"/>
+      
+      <!-- Puncture & Spark point -->
+      <polygon points="85,82 81,96 92,94 83,108 97,98 88,98" fill="#ffd700" stroke="#ff4444" stroke-width="1"/>
+      
+      <!-- Internal Layers diagram -->
+      <line x1="45" y1="120" x2="125" y2="120" stroke="#00ccff" stroke-width="1" stroke-dasharray="2 2"/>
+      <line x1="45" y1="125" x2="125" y2="125" stroke="#ff4444" stroke-width="1" stroke-dasharray="2 2"/>
+      <text x="85" y="142" fill="#8b949e" font-family="monospace" font-size="8" text-anchor="middle">SEPARATOR TORN</text>
+    </g>
+
+    <text x="16" y="275" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600">The Physics:</text>
+    <text x="16" y="295" fill="#8b949e" font-family="system-ui, sans-serif" font-size="11">Polymer separator (12µm) tears, bridging cathode &amp; anode instantly.</text>
+  </g>
+
+  <!-- Phase 3: Explosive Thermal Runaway -->
+  <g transform="translate(540, 85)">
+    <rect x="0" y="0" width="230" height="320" rx="6" fill="#1e1014" stroke="#ff4444" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#ff4444" font-family="monospace" font-size="11" font-weight="bold">PHASE 03 // 1,000°C+</text>
+    <text x="16" y="44" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Thermal Runaway Fire</text>
+    <text x="16" y="62" fill="#ff9900" font-family="system-ui, sans-serif" font-size="11">Toxic fumes &amp; self-fueling flame</text>
+
+    <!-- Graphic: Intense fire & jet flame -->
+    <g transform="translate(30, 80)">
+      <!-- Flame plume -->
+      <path d="M 85,20 C 60,50 40,70 50,110 C 35,90 30,130 55,150 C 70,160 100,160 115,150 C 140,130 135,90 120,110 C 130,70 110,50 85,20 Z" fill="url(#fireGrad)"/>
+      <path d="M 85,55 C 75,75 65,85 70,115 C 60,105 60,125 75,140 C 80,145 90,145 95,140 C 110,125 110,105 100,115 C 105,85 95,75 85,55 Z" fill="#ffffff" opacity="0.9"/>
+      
+      <!-- Toxic Gas plume -->
+      <path d="M 30,40 Q 20,20 40,10 Q 55,25 45,45 Z" fill="#8b949e" opacity="0.5"/>
+      <path d="M 140,40 Q 150,20 130,10 Q 115,25 125,45 Z" fill="#8b949e" opacity="0.5"/>
+      <text x="85" y="172" fill="#ff4444" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">OXYGEN SELF-GENERATING</text>
+    </g>
+
+    <text x="16" y="275" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Catastrophic Result:</text>
+    <text x="16" y="295" fill="#ff9900" font-family="system-ui, sans-serif" font-size="11">Li-ion produces its own oxygen. Smothering fails; entire truck burns.</text>
+  </g>
+</svg>

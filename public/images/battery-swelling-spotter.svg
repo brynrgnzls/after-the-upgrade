@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151923" />
+      <stop offset="100%" stop-color="#0f121a" />
+    </linearGradient>
+    <pattern id="diagGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1f2536" stroke-width="0.7" />
+    </pattern>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect width="900" height="380" fill="#0b0d13" rx="10" />
+  <rect width="900" height="380" fill="url(#diagGrid)" opacity="0.4" rx="10" />
+  <rect width="900" height="380" fill="none" stroke="#252b3d" stroke-width="1.5" rx="10" />
+
+  <!-- Top Title Bar -->
+  <text x="40" y="42" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="2">SAFETY DIAGNOSTIC SPOTTER // LITHIUM-ION DEGRADATION</text>
+  <text x="40" y="70" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">Physical Battery Swelling: 3-Stage Visual Identification</text>
+
+  <!-- 1. Normal State -->
+  <g transform="translate(40, 95)">
+    <rect width="250" height="250" fill="url(#cardBg)" stroke="#00ff66" stroke-width="1" rx="8" />
+    
+    <rect x="16" y="16" width="90" height="22" fill="rgba(0, 255, 102, 0.1)" stroke="#00ff66" stroke-width="0.8" rx="3" />
+    <text x="23" y="31" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">STAGE 01 // SAFE</text>
+
+    <!-- Side-profile illustration of flat battery cell -->
+    <g transform="translate(35, 70)">
+      <!-- Laptop chassis baseline -->
+      <line x1="0" y1="40" x2="180" y2="40" stroke="#333d54" stroke-width="3" />
+      <!-- Flat battery pack -->
+      <rect x="15" y="24" width="150" height="14" fill="#1b2434" stroke="#00ff66" stroke-width="1.5" rx="2" />
+      <circle cx="170" cy="31" r="3" fill="#00ff66" />
+      <!-- Dimension text -->
+      <text x="90" y="16" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">FLAT &amp; UNIFORM PROFILE</text>
+    </g>
+
+    <text x="16" y="170" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">Normal Healthy Cell</text>
+    <text x="16" y="192" fill="#8c9bb0" font-family="sans-serif" font-size="12" line-height="1.4">
+      <tspan x="16" dy="0">• Perfectly flat lithium pouch</tspan>
+      <tspan x="16" dy="18">• Zero chassis or display gap</tspan>
+      <tspan x="16" dy="18">• Touchpad clicks freely</tspan>
+      <tspan x="16" dy="18">• Safe for normal operation &amp; repair</tspan>
+    </text>
+  </g>
+
+  <!-- 2. Moderate Swelling -->
+  <g transform="translate(325, 95)">
+    <rect width="250" height="250" fill="url(#cardBg)" stroke="#ffb703" stroke-width="1" rx="8" />
+    
+    <rect x="16" y="16" width="125" height="22" fill="rgba(255, 183, 3, 0.1)" stroke="#ffb703" stroke-width="0.8" rx="3" />
+    <text x="23" y="31" fill="#ffb703" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">STAGE 02 // WARNING</text>
+
+    <!-- Side-profile illustration: slight bulge -->
+    <g transform="translate(35, 70)">
+      <line x1="0" y1="40" x2="180" y2="40" stroke="#333d54" stroke-width="3" />
+      <!-- Bulging battery pack -->
+      <path d="M 15 32 Q 90 12 165 32 L 165 38 Q 90 34 15 38 Z" fill="#2b261b" stroke="#ffb703" stroke-width="1.5" />
+      <text x="90" y="8" fill="#ffb703" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">SUBTLE PILLOWING</text>
+    </g>
+
+    <text x="16" y="170" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">Early Stage Pillowing</text>
+    <text x="16" y="192" fill="#8c9bb0" font-family="sans-serif" font-size="12">
+      <tspan x="16" dy="0">• Touchpad feels stiff or raised</tspan>
+      <tspan x="16" dy="18">• Hairline seam gap in casing</tspan>
+      <tspan x="16" dy="18">• Device rocks on a flat desk</tspan>
+      <tspan x="16" dy="18">• Discontinue charging immediately</tspan>
+    </text>
+  </g>
+
+  <!-- 3. Severe Hazard Swelling -->
+  <g transform="translate(610, 95)">
+    <rect width="250" height="250" fill="url(#cardBg)" stroke="#ff4444" stroke-width="1.5" rx="8" />
+    
+    <rect x="16" y="16" width="135" height="22" fill="rgba(255, 68, 68, 0.15)" stroke="#ff4444" stroke-width="1" rx="3" />
+    <text x="23" y="31" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">STAGE 03 // SEVERE FIRE HAZARD</text>
+
+    <!-- Side-profile illustration: extreme ballooning / cracked case -->
+    <g transform="translate(35, 70)">
+      <!-- Bent casing -->
+      <path d="M 0 40 Q 90 48 180 40" fill="none" stroke="#ff4444" stroke-width="2" stroke-dasharray="3,3" />
+      <!-- Severe ballooning battery -->
+      <path d="M 15 32 Q 90 -5 165 32 L 165 38 Q 90 48 15 38 Z" fill="#351a1a" stroke="#ff4444" stroke-width="2" />
+      <text x="90" y="-8" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" text-anchor="middle">CRITICAL EXPANSION</text>
+    </g>
+
+    <text x="16" y="170" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="15" font-weight="800">Severe Hazard Condition</text>
+    <text x="16" y="192" fill="#8c9bb0" font-family="sans-serif" font-size="12">
+      <tspan x="16" dy="0">• Screen/backplate split open</tspan>
+      <tspan x="16" dy="18">• Hissing, chemical odor, or heat</tspan>
+      <tspan x="16" dy="18">• Never press, squeeze, or puncture</tspan>
+      <tspan x="16" dy="18">• Place in fire-safe sand box outside</tspan>
+    </text>
+  </g>
+</svg>
