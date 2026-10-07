@@ -1,0 +1,39 @@
+.nav {
+  margin-bottom: 1.5rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link {
+  color: var(--color-text-secondary);
+  transition: color 0.15s ease;
+}
+
+.link:hover {
+  color: var(--color-accent-acid);
+}
+
+.separator {
+  color: var(--color-border);
+  user-select: none;
+}
+
+.current {
+  color: var(--color-accent-acid);
+  font-weight: 600;
+}
