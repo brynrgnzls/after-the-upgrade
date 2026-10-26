@@ -1,0 +1,121 @@
+.figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.figureBlueprint {
+  border-color: rgba(0, 204, 255, 0.35);
+  box-shadow: 0 0 15px rgba(0, 204, 255, 0.06);
+}
+
+.figureWarning {
+  border-color: rgba(255, 68, 68, 0.4);
+  box-shadow: 0 0 15px rgba(255, 68, 68, 0.08);
+}
+
+.figureAcid {
+  border-color: rgba(0, 255, 102, 0.35);
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.06);
+}
+
+.mediaWrapper {
+  position: relative;
+  width: 100%;
+  background-color: #0b0e12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.imageContain {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.badgeOverlay {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 2;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.55rem;
+  background-color: rgba(10, 13, 17, 0.88);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-xs);
+  color: var(--color-accent-tech);
+}
+
+.badgeOverlayAcid {
+  color: var(--color-accent-acid);
+  border-color: var(--color-accent-acid-border);
+}
+
+.badgeOverlayWarning {
+  color: var(--color-accent-warning);
+  border-color: var(--color-accent-warning);
+}
+
+.caption {
+  padding: 1rem 1.25rem;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-surface-elevated);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.captionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.captionTitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+}
+
+.captionText {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .caption {
+    padding: 0.85rem 1rem;
+  }
+  .captionTitle {
+    font-size: 0.75rem;
+  }
+  .captionText {
+    font-size: 0.85rem;
+  }
+}
