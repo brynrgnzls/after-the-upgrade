@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="csBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1217" />
+      <stop offset="100%" stop-color="#141923" />
+    </linearGradient>
+    <pattern id="csGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1d2433" stroke-width="0.75" />
+    </pattern>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#ff4444" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#00ff66" />
+    </marker>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="900" height="440" fill="url(#csBg)" rx="8" />
+  <rect width="900" height="440" fill="url(#csGrid)" rx="8" opacity="0.6" />
+  <rect width="900" height="440" fill="none" stroke="#263043" stroke-width="1.5" rx="8" />
+
+  <!-- Top Title Telemetry Bar -->
+  <g transform="translate(40, 35)">
+    <text x="0" y="0" fill="#00ccff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" letter-spacing="2">CLOUD SYNC HAZARD ARCHITECTURE</text>
+    <text x="0" y="26" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">Manual File Deletion vs. Cryptographic Device Decoupling</text>
+  </g>
+
+  <!-- Pathway A: The Hazard (Manual File Deletion While Synced) -->
+  <g transform="translate(40, 95)">
+    <rect width="820" height="145" fill="#171317" stroke="#ff4444" stroke-width="1" rx="6" />
+    
+    <!-- Badge -->
+    <rect x="16" y="14" width="250" height="22" fill="rgba(255, 68, 68, 0.15)" stroke="#ff4444" stroke-width="0.8" rx="3" />
+    <text x="24" y="29" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" letter-spacing="0.5">HAZARD: MANUAL FILE TRASHING</text>
+    <text x="280" y="29" fill="#8e99ab" font-family="'JetBrains Mono', monospace" font-size="10">TWO-WAY SYNC ACTIVE (iCloud / Drive / OneDrive)</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(20, 50)">
+      <rect width="170" height="75" fill="#201b22" stroke="#423238" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff7777" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">01 / USER ACTION</text>
+      <text x="14" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Drags File to Trash</text>
+      <text x="14" y="62" fill="#99a6b8" font-family="sans-serif" font-size="10">Thinking it only cleans device</text>
+    </g>
+
+    <!-- Red Arrow 1 -->
+    <line x1="200" y1="87" x2="225" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 2 -->
+    <g transform="translate(235, 50)">
+      <rect width="170" height="75" fill="#201b22" stroke="#423238" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff7777" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">02 / TWO-WAY SYNC</text>
+      <text x="14" y="44" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Syncs Deletion Up</text>
+      <text x="14" y="62" fill="#99a6b8" font-family="sans-serif" font-size="10">Sends DELETE to cloud server</text>
+    </g>
+
+    <!-- Red Arrow 2 -->
+    <line x1="415" y1="87" x2="440" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 3 -->
+    <g transform="translate(450, 50)">
+      <rect width="170" height="75" fill="#28181c" stroke="#ff4444" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">03 / CLOUD PURGE</text>
+      <text x="14" y="44" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Cloud Copy Erased</text>
+      <text x="14" y="62" fill="#d1b0b5" font-family="sans-serif" font-size="10">Master backups wiped out</text>
+    </g>
+
+    <!-- Red Arrow 3 -->
+    <line x1="630" y1="87" x2="655" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 4 -->
+    <g transform="translate(665, 50)">
+      <rect width="135" height="75" fill="#331518" stroke="#ff4444" stroke-width="1.5" rx="4" />
+      <text x="12" y="24" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800">DISASTER</text>
+      <text x="12" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">All Devices Lose</text>
+      <text x="12" y="62" fill="#ff8888" font-family="sans-serif" font-size="10.5">Personal Files!</text>
+    </g>
+  </g>
+
+  <!-- Pathway B: The Safe Protocol (Sign Out / Factory Reset) -->
+  <g transform="translate(40, 260)">
+    <rect width="820" height="145" fill="#0f1713" stroke="#00ff66" stroke-width="1" rx="6" />
+    
+    <!-- Badge -->
+    <rect x="16" y="14" width="250" height="22" fill="rgba(0, 255, 102, 0.12)" stroke="#00ff66" stroke-width="0.8" rx="3" />
+    <text x="24" y="29" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" letter-spacing="0.5">SAFE PROTOCOL: DECOUPLING</text>
+    <text x="280" y="29" fill="#8e99ab" font-family="'JetBrains Mono', monospace" font-size="10">UNLINK ACCOUNT OR FACTORY RESET</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(20, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">01 / SAFE ACTION</text>
+      <text x="14" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Sign Out of Cloud</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Or select Factory Reset</text>
+    </g>
+
+    <!-- Green Arrow 1 -->
+    <line x1="200" y1="87" x2="225" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 2 -->
+    <g transform="translate(235, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">02 / CONNECTION CUT</text>
+      <text x="14" y="44" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Sync Token Revoked</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Zero delete signals sent</text>
+    </g>
+
+    <!-- Green Arrow 2 -->
+    <line x1="415" y1="87" x2="440" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 3 -->
+    <g transform="translate(450, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">03 / LOCAL SANITIZE</text>
+      <text x="14" y="44" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Local Keys Wiped</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Device 100% sanitized</text>
+    </g>
+
+    <!-- Green Arrow 3 -->
+    <line x1="630" y1="87" x2="655" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 4 -->
+    <g transform="translate(665, 50)">
+      <rect width="135" height="75" fill="#143823" stroke="#00ff66" stroke-width="1.5" rx="4" />
+      <text x="12" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800">PROTECTED</text>
+      <text x="12" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">Cloud &amp; Other</text>
+      <text x="12" y="62" fill="#a8ffc8" font-family="sans-serif" font-size="10.5">Devices Safe!</text>
+    </g>
+  </g>
+</svg>

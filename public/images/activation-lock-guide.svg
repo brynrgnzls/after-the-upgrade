@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lockBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1217" />
+      <stop offset="100%" stop-color="#151b26" />
+    </linearGradient>
+    <pattern id="lockGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1f283a" stroke-width="0.75" />
+    </pattern>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#ff4444" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7 Z" fill="#00ff66" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="440" fill="url(#lockBg)" rx="8" />
+  <rect width="900" height="440" fill="url(#lockGrid)" rx="8" opacity="0.5" />
+  <rect width="900" height="440" fill="none" stroke="#26334a" stroke-width="1.5" rx="8" />
+
+  <!-- Header -->
+  <g transform="translate(40, 35)">
+    <text x="0" y="0" fill="#00ccff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" letter-spacing="2">OWNERSHIP TRANSFER FIELD MANUAL</text>
+    <text x="0" y="26" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">Activation Lock Disassociation Protocol (Apple &amp; Google)</text>
+  </g>
+
+  <!-- Scenario 1: Unsafe / Forgotten Account Lock -->
+  <g transform="translate(40, 95)">
+    <rect width="820" height="145" fill="#171317" stroke="#ff4444" stroke-width="1" rx="6" />
+    
+    <rect x="16" y="14" width="250" height="22" fill="rgba(255, 68, 68, 0.15)" stroke="#ff4444" stroke-width="0.8" rx="3" />
+    <text x="24" y="29" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" letter-spacing="0.5">FAILURE: RESET WITHOUT SIGN-OUT</text>
+    <text x="280" y="29" fill="#8e99ab" font-family="'JetBrains Mono', monospace" font-size="10">ACCOUNT TIED TO PREVIOUS OWNER</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(20, 50)">
+      <rect width="170" height="75" fill="#201b22" stroke="#423238" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff7777" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">01 / MISSTEP</text>
+      <text x="14" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Reset Triggered</text>
+      <text x="14" y="62" fill="#99a6b8" font-family="sans-serif" font-size="10">Apple ID / Google active</text>
+    </g>
+
+    <line x1="200" y1="87" x2="225" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 2 -->
+    <g transform="translate(235, 50)">
+      <rect width="170" height="75" fill="#201b22" stroke="#423238" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff7777" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">02 / CLOUD RECOGNITION</text>
+      <text x="14" y="44" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Activation Lock Fires</text>
+      <text x="14" y="62" fill="#99a6b8" font-family="sans-serif" font-size="10">Server demands prior login</text>
+    </g>
+
+    <line x1="415" y1="87" x2="440" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 3 -->
+    <g transform="translate(450, 50)">
+      <rect width="170" height="75" fill="#28181c" stroke="#ff4444" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">03 / HANDOVER BLOCKED</text>
+      <text x="14" y="44" fill="#ff4444" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Charity Blocked</text>
+      <text x="14" y="62" fill="#d1b0b5" font-family="sans-serif" font-size="10">Cannot setup device</text>
+    </g>
+
+    <line x1="630" y1="87" x2="655" y2="87" stroke="#ff4444" stroke-width="2" marker-end="url(#arrowRed)" />
+
+    <!-- Step 4 -->
+    <g transform="translate(665, 50)">
+      <rect width="135" height="75" fill="#331518" stroke="#ff4444" stroke-width="1.5" rx="4" />
+      <text x="12" y="24" fill="#ff4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800">E-WASTE</text>
+      <text x="12" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">Good Silicon</text>
+      <text x="12" y="62" fill="#ff8888" font-family="sans-serif" font-size="10.5">Turned to Scrap!</text>
+    </g>
+  </g>
+
+  <!-- Scenario 2: Verified De-linked Account -->
+  <g transform="translate(40, 260)">
+    <rect width="820" height="145" fill="#0f1713" stroke="#00ff66" stroke-width="1" rx="6" />
+    
+    <rect x="16" y="14" width="250" height="22" fill="rgba(0, 255, 102, 0.12)" stroke="#00ff66" stroke-width="0.8" rx="3" />
+    <text x="24" y="29" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" letter-spacing="0.5">SUCCESS: UNLINK PRIOR TO RESET</text>
+    <text x="280" y="29" fill="#8e99ab" font-family="'JetBrains Mono', monospace" font-size="10">DISASSOCIATED VIA SETTINGS OR ICLOUD.COM</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(20, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">01 / ACTION</text>
+      <text x="14" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Remove Account</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Settings > Accounts</text>
+    </g>
+
+    <line x1="200" y1="87" x2="225" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 2 -->
+    <g transform="translate(235, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">02 / VERIFICATION</text>
+      <text x="14" y="44" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">iCloud / FRP Cleared</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Device unlinked from cloud</text>
+    </g>
+
+    <line x1="415" y1="87" x2="440" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 3 -->
+    <g transform="translate(450, 50)">
+      <rect width="170" height="75" fill="#132219" stroke="#234a33" stroke-width="1" rx="4" />
+      <text x="14" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">03 / FACTORY WIPE</text>
+      <text x="14" y="44" fill="#00ff66" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Erase All Content</text>
+      <text x="14" y="62" fill="#99b8a6" font-family="sans-serif" font-size="10">Cryptographic wipe</text>
+    </g>
+
+    <line x1="630" y1="87" x2="655" y2="87" stroke="#00ff66" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+    <!-- Step 4 -->
+    <g transform="translate(665, 50)">
+      <rect width="135" height="75" fill="#143823" stroke="#00ff66" stroke-width="1.5" rx="4" />
+      <text x="12" y="24" fill="#00ff66" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800">RECIRCULATED</text>
+      <text x="12" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="800">Ready for</text>
+      <text x="12" y="62" fill="#a8ffc8" font-family="sans-serif" font-size="10.5">Next Learner!</text>
+    </g>
+  </g>
+</svg>
